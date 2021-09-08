@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="utf-8">
+  
+    <title>Automatic Alt Test Benchmarking - Pelé</title>
+  
+  <link rel="stylesheet" href="https://mallonbacka.github.io/basic-styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    img{
+      border: 0.3rem solid #999;
+    }
+
+    pre{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      width: 90vw;
+      border: 0.3rem solid #999;
+      padding: 2rem; 
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    
+<a href="/auto-alt-text-results/">Back to list</a>
+<h1>Pelé</h1>
+<h2>Image</h2>
+
+<picture><source type="image/png" srcset="/auto-alt-text-results/img/381b4fee-600.png 600w"><img alt="Pelé" loading="lazy" decoding="async" src="/auto-alt-text-results/img/381b4fee-600.jpeg" width="600" height="778"></picture>
+
+<h2>Background Information</h2>
+<ul>
+	<li><strong>Image contains:</strong> Pelé</li>
+	<li><strong>Reason chosen:</strong> A figure likely to be well-known by football fans, but relatively obscure to others</li>
+	<li><strong>License:</strong> Creative Commons (John Mathew Smith via Wikipedia) <a href="https://commons.wikimedia.org/wiki/File:Pele_by_John_Mathew_Smith.jpg">Source page</a></li>
+</ul>
+<h2>Test Results</h2>
+<h3>Facebook Auto Alt Text</h3>
+<blockquote>May be an image of 1 person</blockquote>
+<p><strong>Classification:</strong> Some contents</p>
+
+<h3>Twitter a11y</h3>
+<blockquote>From other pages with same image: El fútbol está de Luto!</blockquote>
+<p><strong>Classification:</strong> Misleading</p>
+
+<h3>accessiBe</h3>
+<blockquote>Man in black suit smiling</blockquote>
+<p><strong>Classification:</strong> Some contents</p>
+
+<h2>Benchmarking (Google Cloud Vision API)</h2>
+
+<h3>Labels</h3>
+<pre style="display: block; overflow-x: auto; overflow-y: hidden;">
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;labelAnnotations&quot;: [
+				{
+					&quot;description&quot;: &quot;Forehead&quot;,
+					&quot;mid&quot;: &quot;/m/025kyy&quot;,
+					&quot;score&quot;: 0.9846564,
+					&quot;topicality&quot;: 0.9846564
+				},
+				{
+					&quot;description&quot;: &quot;Face&quot;,
+					&quot;mid&quot;: &quot;/m/0dzct&quot;,
+					&quot;score&quot;: 0.9825521,
+					&quot;topicality&quot;: 0.9825521
+				},
+				{
+					&quot;description&quot;: &quot;Smile&quot;,
+					&quot;mid&quot;: &quot;/m/019nj4&quot;,
+					&quot;score&quot;: 0.9771928,
+					&quot;topicality&quot;: 0.9771928
+				},
+				{
+					&quot;description&quot;: &quot;Chin&quot;,
+					&quot;mid&quot;: &quot;/m/0f9swq&quot;,
+					&quot;score&quot;: 0.96805817,
+					&quot;topicality&quot;: 0.96805817
+				},
+				{
+					&quot;description&quot;: &quot;Eyebrow&quot;,
+					&quot;mid&quot;: &quot;/m/027n3_&quot;,
+					&quot;score&quot;: 0.9511672,
+					&quot;topicality&quot;: 0.9511672
+				},
+				{
+					&quot;description&quot;: &quot;Eye&quot;,
+					&quot;mid&quot;: &quot;/m/014sv8&quot;,
+					&quot;score&quot;: 0.9338126,
+					&quot;topicality&quot;: 0.9338126
+				},
+				{
+					&quot;description&quot;: &quot;Vertebrate&quot;,
+					&quot;mid&quot;: &quot;/m/09686&quot;,
+					&quot;score&quot;: 0.9255479,
+					&quot;topicality&quot;: 0.9255479
+				},
+				{
+					&quot;description&quot;: &quot;Human&quot;,
+					&quot;mid&quot;: &quot;/m/0dgw9r&quot;,
+					&quot;score&quot;: 0.9000084,
+					&quot;topicality&quot;: 0.9000084
+				},
+				{
+					&quot;description&quot;: &quot;Tie&quot;,
+					&quot;mid&quot;: &quot;/m/01rkbr&quot;,
+					&quot;score&quot;: 0.88190156,
+					&quot;topicality&quot;: 0.88190156
+				},
+				{
+					&quot;description&quot;: &quot;Mammal&quot;,
+					&quot;mid&quot;: &quot;/m/04rky&quot;,
+					&quot;score&quot;: 0.8641697,
+					&quot;topicality&quot;: 0.8641697
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Landmarks</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Logos</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Objects</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;localizedObjectAnnotations&quot;: [
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.5442133,
+								&quot;y&quot;: 0.77013993
+							},
+							{
+								&quot;x&quot;: 0.75029415,
+								&quot;y&quot;: 0.77013993
+							},
+							{
+								&quot;x&quot;: 0.75029415,
+								&quot;y&quot;: 0.9969122
+							},
+							{
+								&quot;x&quot;: 0.5442133,
+								&quot;y&quot;: 0.9969122
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/01rkbr&quot;,
+					&quot;name&quot;: &quot;Tie&quot;,
+					&quot;score&quot;: 0.97690517
+				},
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.01719429,
+								&quot;y&quot;: 0.09452767
+							},
+							{
+								&quot;x&quot;: 0.9853236,
+								&quot;y&quot;: 0.09452767
+							},
+							{
+								&quot;x&quot;: 0.9853236,
+								&quot;y&quot;: 0.98746586
+							},
+							{
+								&quot;x&quot;: 0.01719429,
+								&quot;y&quot;: 0.98746586
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/01g317&quot;,
+					&quot;name&quot;: &quot;Person&quot;,
+					&quot;score&quot;: 0.8240466
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Web</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;webDetection&quot;: {
+				&quot;bestGuessLabels&quot;: [
+					{
+						&quot;label&quot;: &quot;pele 2021&quot;,
+						&quot;languageCode&quot;: &quot;en&quot;
+					}
+				],
+				&quot;fullMatchingImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/5/54/Pele_by_John_Mathew_Smith.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Pele_by_John_Mathew_Smith.jpg/1579px-Pele_by_John_Mathew_Smith.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Pele_by_John_Mathew_Smith.jpg/1200px-Pele_by_John_Mathew_Smith.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Pele_by_John_Mathew_Smith.jpg/789px-Pele_by_John_Mathew_Smith.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Pele_by_John_Mathew_Smith.jpg/592px-Pele_by_John_Mathew_Smith.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Pele_by_John_Mathew_Smith.jpg/370px-Pele_by_John_Mathew_Smith.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://d8it4huxumps7.cloudfront.net/uploads/profile/5ffb439d7ff74.jpeg&quot;
+					}
+				],
+				&quot;pagesWithMatchingImages&quot;: [
+					{
+						&quot;pageTitle&quot;: &quot;&lt;b&gt;Pelé&lt;/b&gt; (&lt;b&gt;2021&lt;/b&gt;) — The Movie Database (TMDB)&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://www.themoviedb.org/t/p/w120_and_h133_face/e5M1Jn4ugSmWvuNPuHteDDcb40P.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;http://www.themoviedb.org/movie/785976-pele?language=en-US&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;&lt;b&gt;Pelé&lt;/b&gt; - Wikipedia&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Pele_by_John_Mathew_Smith.jpg/220px-Pele_by_John_Mathew_Smith.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://en.wikipedia.org/wiki/Pel%C3%A9&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;&lt;b&gt;Pele&lt;/b&gt; Net Worth [&lt;b&gt;2021&lt;/b&gt; Update]: Career Earnings, House &amp;amp; Cars&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://playersbio.com/wp-content/uploads/2020/02/pele-537.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://playersbio.com/pele-net-worth/&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;&lt;b&gt;Pelé&lt;/b&gt; (&lt;b&gt;2021&lt;/b&gt;) - Trakt.tv&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://walter.trakt.tv/images/people/000/431/753/headshots/thumb/09604cc98f.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://trakt.tv/movies/pele-2021&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;&lt;b&gt;Pele&lt;/b&gt; - &lt;b&gt;Pelé&lt;/b&gt; - Age Calculator&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://age.ninja/images/celebrities/pele.png&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://age.ninja/celebrity/Pele&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;&lt;b&gt;Pelé&lt;/b&gt; (&lt;b&gt;2021&lt;/b&gt;) - Taste.io&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://image.tmdb.org/t/p/w500/e5M1Jn4ugSmWvuNPuHteDDcb40P.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.taste.io/movies/pele&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Pele_by_John_Mathew_Smith.jpg/1200px-Pele_by_John_Mathew_Smith.jpg&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;&lt;b&gt;pele&lt;/b&gt; photo - Obeki&quot;,
+						&quot;url&quot;: &quot;http://obeki.com/notes.php?iid=156376834-pele+photo&amp;cid=6&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;ADLII Soccer Inspiration of The Diaspora and Others - Pinterest&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://i.pinimg.com/170x/c1/4c/1f/c14c1f283a65f8094d6df590d8ca0cf8.jpg&quot;
+							},
+							{
+								&quot;url&quot;: &quot;https://i.pinimg.com/736x/c1/4c/1f/c14c1f283a65f8094d6df590d8ca0cf8.jpg&quot;
+							},
+							{
+								&quot;url&quot;: &quot;https://i.pinimg.com/originals/c1/4c/1f/c14c1f283a65f8094d6df590d8ca0cf8.jpg&quot;
+							},
+							{
+								&quot;url&quot;: &quot;https://i.pinimg.com/474x/c1/4c/1f/c14c1f283a65f8094d6df590d8ca0cf8.jpg&quot;
+							},
+							{
+								&quot;url&quot;: &quot;https://i.pinimg.com/236x/c1/4c/1f/c14c1f283a65f8094d6df590d8ca0cf8.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.pinterest.com/jahlives87/adlii-soccer-inspiration-of-the-diaspora-and-other/&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;&lt;b&gt;Pele&lt;/b&gt; Opens Up About Being Unfaithful To All Three Of His Wives&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://img.mensxp.com/media/content/2021/Feb/thumb_6037331278e34_600x900.jpeg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.mensxp.com/social-hits/news/85902-pele-reveals-he-was-unfaithful-to-his-3-wives.html&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;&lt;b&gt;Pelé&lt;/b&gt; — The Movie Database (TMDb)&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://www.themoviedb.org/t/p/w235_and_h235_face/e5M1Jn4ugSmWvuNPuHteDDcb40P.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.themoviedb.org/person/140152-pel&quot;
+					}
+				],
+				&quot;partialMatchingImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Pele_by_John_Mathew_Smith.jpg/1280px-Pele_by_John_Mathew_Smith.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://wikiimg.tojsiabtv.com/wikipedia/commons/thumb/5/54/Pele_by_John_Mathew_Smith.jpg/640px-Pele_by_John_Mathew_Smith.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://qph.fs.quoracdn.net/main-qimg-9335d994568267b678683834fa51b335-mzj&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://elartedelfutbol.com/wp-content/uploads/2021/07/555px-Pele_by_John_Mathew_Smith-1.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://elartedelfutbol.com/wp-content/uploads/2021/07/555px-Pele_by_John_Mathew_Smith-1-231x300.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://media-exp1.licdn.com/dms/image/C4D22AQENmjeJBYSSwg/feedshare-shrink_800/0/1620852639448?e=1632355200&amp;v=beta&amp;t=YXNgpKs-n5CMw1KRkh7zzoSzAOukCmm1pPEFqHFYdbM&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://lh5.googleusercontent.com/proxy/ydAAnTQ_gYYbZ-sB1pxf9KtJ3BRBPxWWifp4hSD5WC54guJ2NTY6Q75bL8Lvm9HZAfRld-sPTLiIx2db2gH35iAceMAR-zq53pEudqE1fApniA8TGTbL9hEeAcxk9IWNs_4sZKA&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Pele_by_John_Mathew_Smith.jpg/500px-Pele_by_John_Mathew_Smith.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://pucharswiata.net.pl/wp-content/uploads/2021/01/Pele.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Pele_by_John_Mathew_Smith.jpg/400px-Pele_by_John_Mathew_Smith.jpg&quot;
+					}
+				],
+				&quot;visuallySimilarImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/5/54/Pele_by_John_Mathew_Smith.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://fwcdn.pl/ppo/77/21/67721/458434.3.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.tuttivip.it/wp-content/uploads/2021/04/Pele-2.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.cuandopasa.com/pic/v/000/028/v0000028334cdz.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.cityam.com/wp-content/uploads/2021/02/Pele-In-London-843055086-960x685.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://i0.wp.com/subthai.tv/wp-content/uploads/2021/02/Pele-2021.jpg?resize=630%2C706&amp;ssl=1&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://vodlife.pl/static/person/pele.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.filmotip.net/imdb/posters/MV5BODJmYTg4NTEtYTU0Mi00YjQ0LTkyYzEtMTU4MTM2ZWY3NjY4XkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_SX300.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://cdn.dnaindia.com/sites/default/files/styles/half/public/2021/02/23/959803-pele.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://img.a.transfermarkt.technology/portrait/big/99189-1510672624.jpg?lm=1&quot;
+					}
+				],
+				&quot;webEntities&quot;: [
+					{
+						&quot;description&quot;: &quot;Pelé&quot;,
+						&quot;entityId&quot;: &quot;/m/067g_&quot;,
+						&quot;score&quot;: 14.9955
+					},
+					{
+						&quot;description&quot;: &quot;Brazil national football team&quot;,
+						&quot;entityId&quot;: &quot;/m/01352_&quot;,
+						&quot;score&quot;: 1.0512
+					},
+					{
+						&quot;description&quot;: &quot;Pelé&quot;,
+						&quot;entityId&quot;: &quot;/g/11lrp7k245&quot;,
+						&quot;score&quot;: 0.89745
+					},
+					{
+						&quot;description&quot;: &quot;Football player&quot;,
+						&quot;entityId&quot;: &quot;/m/0gl2ny2&quot;,
+						&quot;score&quot;: 0.705
+					},
+					{
+						&quot;description&quot;: &quot;Maracanã&quot;,
+						&quot;entityId&quot;: &quot;/m/01qv4y&quot;,
+						&quot;score&quot;: 0.65715003
+					},
+					{
+						&quot;description&quot;: &quot;2021&quot;,
+						&quot;entityId&quot;: &quot;/g/11b77d6b6f&quot;,
+						&quot;score&quot;: 0.5804
+					},
+					{
+						&quot;entityId&quot;: &quot;/t/29syjjvbyn_rl&quot;,
+						&quot;score&quot;: 0.5113
+					},
+					{
+						&quot;description&quot;: &quot;Football in Brazil&quot;,
+						&quot;entityId&quot;: &quot;/m/0119_9bh&quot;,
+						&quot;score&quot;: 0.4347
+					},
+					{
+						&quot;description&quot;: &quot;Forward&quot;,
+						&quot;entityId&quot;: &quot;/m/02sdk9v&quot;,
+						&quot;score&quot;: 0.4344
+					},
+					{
+						&quot;description&quot;: &quot;Abedi Pele&quot;,
+						&quot;entityId&quot;: &quot;/m/02w_t2&quot;,
+						&quot;score&quot;: 0.08832001
+					}
+				]
+			}
+		}
+	]
+}
+</pre>
+  </main>
+</body>
+
+</html>

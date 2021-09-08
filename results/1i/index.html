@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="utf-8">
+  
+    <title>Automatic Alt Test Benchmarking - Futurama Fry meme</title>
+  
+  <link rel="stylesheet" href="https://mallonbacka.github.io/basic-styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    img{
+      border: 0.3rem solid #999;
+    }
+
+    pre{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      width: 90vw;
+      border: 0.3rem solid #999;
+      padding: 2rem; 
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    
+<a href="/auto-alt-text-results/">Back to list</a>
+<h1>Futurama Fry meme</h1>
+<h2>Image</h2>
+
+<picture><source type="image/png" srcset="/auto-alt-text-results/img/b86208e7-600.png 600w"><img alt="Futurama Fry meme" loading="lazy" decoding="async" src="/auto-alt-text-results/img/b86208e7-600.jpeg" width="600" height="450"></picture>
+
+<h2>Background Information</h2>
+<ul>
+	<li><strong>Image contains:</strong> Futurama Fry meme</li>
+	<li><strong>Reason chosen:</strong> This meme is very common, but I wanted a version with text that hadn&#39;t been seen before so I created one with the text not sure if automatic alt text tools will recognise common images or just the text</li>
+	<li><strong>License:</strong> Self-made (Matthew Hallonbacka) <a href="">Source page</a></li>
+</ul>
+<h2>Test Results</h2>
+<h3>Facebook Auto Alt Text</h3>
+<blockquote>May be an image of text that says &#39;NOT SURE IF AUTOMATIC ALT TEXT TOOLS WILL RECOGNISE COMMON IMAGES た OR JUST THE TEXT memegenerator.net&#39;</blockquote>
+<p><strong>Classification:</strong> Some contents</p>
+
+<h3>Twitter a11y</h3>
+<blockquote>From automatic captioning: null</blockquote>
+<p><strong>Classification:</strong> Missing</p>
+
+<h3>accessiBe</h3>
+<blockquote>Happy first day of spring meme | NOT SURE IF AUTOMATIC ALT TEXT TOOLS WILL RECOGNISE COMMON IMAGES, OR JUST THE TEXT, memegenerator.net</blockquote>
+<p><strong>Classification:</strong> Some contents</p>
+
+	<p><strong>Notes: </strong>Not &quot;acceptable&quot; beause the wrong name of meme is present.</p>
+
+<h2>Benchmarking (Google Cloud Vision API)</h2>
+
+<h3>Labels</h3>
+<pre style="display: block; overflow-x: auto; overflow-y: hidden;">
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;labelAnnotations&quot;: [
+				{
+					&quot;description&quot;: &quot;Hair&quot;,
+					&quot;mid&quot;: &quot;/m/03q69&quot;,
+					&quot;score&quot;: 0.9831792,
+					&quot;topicality&quot;: 0.9831792
+				},
+				{
+					&quot;description&quot;: &quot;Hairstyle&quot;,
+					&quot;mid&quot;: &quot;/m/0ds4x&quot;,
+					&quot;score&quot;: 0.9509009,
+					&quot;topicality&quot;: 0.9509009
+				},
+				{
+					&quot;description&quot;: &quot;Vertebrate&quot;,
+					&quot;mid&quot;: &quot;/m/09686&quot;,
+					&quot;score&quot;: 0.9187136,
+					&quot;topicality&quot;: 0.9187136
+				},
+				{
+					&quot;description&quot;: &quot;Organ&quot;,
+					&quot;mid&quot;: &quot;/m/013y0j&quot;,
+					&quot;score&quot;: 0.9038327,
+					&quot;topicality&quot;: 0.9038327
+				},
+				{
+					&quot;description&quot;: &quot;Cartoon&quot;,
+					&quot;mid&quot;: &quot;/m/0215n&quot;,
+					&quot;score&quot;: 0.89137495,
+					&quot;topicality&quot;: 0.89137495
+				},
+				{
+					&quot;description&quot;: &quot;Jaw&quot;,
+					&quot;mid&quot;: &quot;/m/01k9lj&quot;,
+					&quot;score&quot;: 0.87834203,
+					&quot;topicality&quot;: 0.87834203
+				},
+				{
+					&quot;description&quot;: &quot;Organism&quot;,
+					&quot;mid&quot;: &quot;/m/05nnm&quot;,
+					&quot;score&quot;: 0.8659463,
+					&quot;topicality&quot;: 0.8659463
+				},
+				{
+					&quot;description&quot;: &quot;Font&quot;,
+					&quot;mid&quot;: &quot;/m/03gq5hm&quot;,
+					&quot;score&quot;: 0.8547389,
+					&quot;topicality&quot;: 0.8547389
+				},
+				{
+					&quot;description&quot;: &quot;Gesture&quot;,
+					&quot;mid&quot;: &quot;/m/0244x1&quot;,
+					&quot;score&quot;: 0.85260487,
+					&quot;topicality&quot;: 0.85260487
+				},
+				{
+					&quot;description&quot;: &quot;Happy&quot;,
+					&quot;mid&quot;: &quot;/m/016pp7&quot;,
+					&quot;score&quot;: 0.849552,
+					&quot;topicality&quot;: 0.849552
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Landmarks</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Logos</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Objects</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;localizedObjectAnnotations&quot;: [
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.413363,
+								&quot;y&quot;: 0.47250438
+							},
+							{
+								&quot;x&quot;: 0.65944654,
+								&quot;y&quot;: 0.47250438
+							},
+							{
+								&quot;x&quot;: 0.65944654,
+								&quot;y&quot;: 0.56779945
+							},
+							{
+								&quot;x&quot;: 0.413363,
+								&quot;y&quot;: 0.56779945
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/0jyfg&quot;,
+					&quot;name&quot;: &quot;Glasses&quot;,
+					&quot;score&quot;: 0.82396394
+				},
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.13020182,
+								&quot;y&quot;: 0.109600246
+							},
+							{
+								&quot;x&quot;: 0.81665534,
+								&quot;y&quot;: 0.109600246
+							},
+							{
+								&quot;x&quot;: 0.81665534,
+								&quot;y&quot;: 0.9919808
+							},
+							{
+								&quot;x&quot;: 0.13020182,
+								&quot;y&quot;: 0.9919808
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/01g317&quot;,
+					&quot;name&quot;: &quot;Person&quot;,
+					&quot;score&quot;: 0.71956253
+				},
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.22046328,
+								&quot;y&quot;: 0.111293435
+							},
+							{
+								&quot;x&quot;: 0.66588813,
+								&quot;y&quot;: 0.111293435
+							},
+							{
+								&quot;x&quot;: 0.66588813,
+								&quot;y&quot;: 0.5409291
+							},
+							{
+								&quot;x&quot;: 0.22046328,
+								&quot;y&quot;: 0.5409291
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/02dl1y&quot;,
+					&quot;name&quot;: &quot;Hat&quot;,
+					&quot;score&quot;: 0.6285559
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Web</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;webDetection&quot;: {
+				&quot;bestGuessLabels&quot;: [
+					{
+						&quot;label&quot;: &quot;funny memes&quot;,
+						&quot;languageCode&quot;: &quot;en&quot;
+					}
+				],
+				&quot;fullMatchingImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=4480210388708629&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.liveabout.com/thmb/Mbupza9B4oHUZHDRu6SoZ3XYHM4=/1500x1000/filters:no_upscale():max_bytes(150000):strip_icc()/DigimonMeme01-56ca564c5f9b5879cc4ca48b.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.liveabout.com/thmb/QKSYyNeHwxnGSdPPM6kXe5oty-o=/1500x1000/filters:fill(auto,1)/DigimonMeme01-56ca564c5f9b5879cc4ca48b.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://miro.medium.com/max/1400/0*nKJ9iPh8tgeEI4rN.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://images.saymedia-content.com/.image/t_share/MTc1MDE0MzYwNjk4NTk1MTE1/scamemails.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://i.redd.it/a9ia2nc47tk71.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://pbs.twimg.com/media/EAQONJoUYAEWHLV.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=3703288039721122&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=3001138776667424&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://img.buzzfeed.com/buzzfeed-static/static/2017-06/7/8/asset/buzzfeed-prod-fastlane-02/sub-buzz-12678-1496839897-2.png&quot;
+					}
+				],
+				&quot;visuallySimilarImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://i.pinimg.com/474x/bf/28/45/bf28450fec051c9c1d57ce7eedb8e422.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://st1.latestly.com/wp-content/uploads/2020/10/Caps-Lock-Key-380x214.png&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://sayingimages.com/wp-content/uploads/funny-hate-monday-meme.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://perfectdaytoplay.com/wp-content/uploads/2020/05/Travel-funny-meme-covid19-pandemic-joke-humor-36.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://i.chzbgr.com/full/8572951552/h002C7573/funny-memes-meme-orgy-turns-violent&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.dreamsquote.com/wp-content/uploads/2021/05/80-Respect-Memes-Quotes-and-Funny-Memes-29.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://cdn.pocket-lint.com/r/s/320x/assets/images/140427-apps-news-the-best-stupidest-and-most-famous-internet-memes-around-image12-grwqeswg1j-jpg.webp?v1&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://thefunnybeavercomd030b.zapwp.com/q:intelligent/retina:true/webp:true/w:412/url:https://thefunnybeaver.com/wp-content/uploads/2020/01/funny-just-right.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://themighty.com/wp-content/uploads/2017/11/xsouth-park-skin-cancer-meme.jpg.pagespeed.ic.W58ZKaisgR.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://images.indianexpress.com/2018/02/valentines-day-meme-9.jpg?w=350&quot;
+					}
+				],
+				&quot;webEntities&quot;: [
+					{
+						&quot;description&quot;: &quot;Anime&quot;,
+						&quot;entityId&quot;: &quot;/m/0jxy&quot;,
+						&quot;score&quot;: 0.9684
+					},
+					{
+						&quot;description&quot;: &quot;Cartoon&quot;,
+						&quot;entityId&quot;: &quot;/m/0215n&quot;,
+						&quot;score&quot;: 0.6648323
+					},
+					{
+						&quot;description&quot;: &quot;Meme&quot;,
+						&quot;entityId&quot;: &quot;/m/04wpw&quot;,
+						&quot;score&quot;: 0.5852
+					},
+					{
+						&quot;description&quot;: &quot;Clip art&quot;,
+						&quot;entityId&quot;: &quot;/m/03g09t&quot;,
+						&quot;score&quot;: 0.55095184
+					},
+					{
+						&quot;description&quot;: &quot;Humour&quot;,
+						&quot;entityId&quot;: &quot;/m/09kqc&quot;,
+						&quot;score&quot;: 0.5188
+					},
+					{
+						&quot;description&quot;: &quot;Internet meme&quot;,
+						&quot;entityId&quot;: &quot;/m/025rxrz&quot;,
+						&quot;score&quot;: 0.5142
+					},
+					{
+						&quot;description&quot;: &quot;Text&quot;,
+						&quot;entityId&quot;: &quot;/m/07s6nbt&quot;,
+						&quot;score&quot;: 0.46238995
+					},
+					{
+						&quot;entityId&quot;: &quot;/m/0rp3jyj&quot;,
+						&quot;score&quot;: 0.2962
+					},
+					{
+						&quot;description&quot;: &quot;Digimon&quot;,
+						&quot;entityId&quot;: &quot;/m/0532x8&quot;,
+						&quot;score&quot;: 0.287
+					},
+					{
+						&quot;description&quot;: &quot;Comics&quot;,
+						&quot;entityId&quot;: &quot;/m/012h24&quot;,
+						&quot;score&quot;: 0.26060224
+					}
+				]
+			}
+		}
+	]
+}
+</pre>
+  </main>
+</body>
+
+</html>

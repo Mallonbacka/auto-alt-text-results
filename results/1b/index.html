@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="utf-8">
+  
+    <title>Automatic Alt Test Benchmarking - Princess Diana</title>
+  
+  <link rel="stylesheet" href="https://mallonbacka.github.io/basic-styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    img{
+      border: 0.3rem solid #999;
+    }
+
+    pre{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      width: 90vw;
+      border: 0.3rem solid #999;
+      padding: 2rem; 
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    
+<a href="/auto-alt-text-results/">Back to list</a>
+<h1>Princess Diana</h1>
+<h2>Image</h2>
+
+<picture><source type="image/png" srcset="/auto-alt-text-results/img/a4597e2c-600.png 600w"><img alt="Princess Diana" loading="lazy" decoding="async" src="/auto-alt-text-results/img/a4597e2c-600.jpeg" width="600" height="814"></picture>
+
+<h2>Background Information</h2>
+<ul>
+	<li><strong>Image contains:</strong> Princess Diana</li>
+	<li><strong>Reason chosen:</strong> Significant public figure - her fame peaked several decades ago around her death</li>
+	<li><strong>License:</strong> Creative Commons (John Mathew Smith &amp; www.celebrity-photos.com) <a href="https://commons.wikimedia.org/wiki/File:Princess_Diana_(Red_Cross)_(5139757342).jpg">Source page</a></li>
+</ul>
+<h2>Test Results</h2>
+<h3>Facebook Auto Alt Text</h3>
+<blockquote>May be an image of 1 person and standing</blockquote>
+<p><strong>Classification:</strong> Some contents</p>
+
+<h3>Twitter a11y</h3>
+<blockquote>From automatic captioning: Diana, princess of wales wearing a suit and tie</blockquote>
+<p><strong>Classification:</strong> Acceptable alternative</p>
+
+	<p><strong>Notes: </strong>No tie, but in this category, the test was whether the public figure would be identified correctly</p>
+
+<h3>accessiBe</h3>
+<blockquote>Smiling woman in pink blazer</blockquote>
+<p><strong>Classification:</strong> Some contents</p>
+
+<h2>Benchmarking (Google Cloud Vision API)</h2>
+
+<h3>Labels</h3>
+<pre style="display: block; overflow-x: auto; overflow-y: hidden;">
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;labelAnnotations&quot;: [
+				{
+					&quot;description&quot;: &quot;Chin&quot;,
+					&quot;mid&quot;: &quot;/m/0f9swq&quot;,
+					&quot;score&quot;: 0.96750355,
+					&quot;topicality&quot;: 0.96750355
+				},
+				{
+					&quot;description&quot;: &quot;Outerwear&quot;,
+					&quot;mid&quot;: &quot;/m/047vlmn&quot;,
+					&quot;score&quot;: 0.9518407,
+					&quot;topicality&quot;: 0.9518407
+				},
+				{
+					&quot;description&quot;: &quot;Microphone&quot;,
+					&quot;mid&quot;: &quot;/m/0hg7b&quot;,
+					&quot;score&quot;: 0.9317223,
+					&quot;topicality&quot;: 0.9317223
+				},
+				{
+					&quot;description&quot;: &quot;Human&quot;,
+					&quot;mid&quot;: &quot;/m/0dgw9r&quot;,
+					&quot;score&quot;: 0.8924398,
+					&quot;topicality&quot;: 0.8924398
+				},
+				{
+					&quot;description&quot;: &quot;Sleeve&quot;,
+					&quot;mid&quot;: &quot;/m/062581&quot;,
+					&quot;score&quot;: 0.87237096,
+					&quot;topicality&quot;: 0.87237096
+				},
+				{
+					&quot;description&quot;: &quot;Collar&quot;,
+					&quot;mid&quot;: &quot;/m/091410&quot;,
+					&quot;score&quot;: 0.8237966,
+					&quot;topicality&quot;: 0.8237966
+				},
+				{
+					&quot;description&quot;: &quot;Blazer&quot;,
+					&quot;mid&quot;: &quot;/m/04xz_5&quot;,
+					&quot;score&quot;: 0.78277355,
+					&quot;topicality&quot;: 0.78277355
+				},
+				{
+					&quot;description&quot;: &quot;Electric blue&quot;,
+					&quot;mid&quot;: &quot;/m/02vwbzz&quot;,
+					&quot;score&quot;: 0.75606585,
+					&quot;topicality&quot;: 0.75606585
+				},
+				{
+					&quot;description&quot;: &quot;Beauty&quot;,
+					&quot;mid&quot;: &quot;/m/01f43&quot;,
+					&quot;score&quot;: 0.74871266,
+					&quot;topicality&quot;: 0.74871266
+				},
+				{
+					&quot;description&quot;: &quot;Jewellery&quot;,
+					&quot;mid&quot;: &quot;/m/0404d&quot;,
+					&quot;score&quot;: 0.7472523,
+					&quot;topicality&quot;: 0.7472523
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Landmarks</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Logos</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Objects</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;localizedObjectAnnotations&quot;: [
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.016726036,
+								&quot;y&quot;: 0.12880383
+							},
+							{
+								&quot;x&quot;: 0.9754527,
+								&quot;y&quot;: 0.12880383
+							},
+							{
+								&quot;x&quot;: 0.9754527,
+								&quot;y&quot;: 0.94117546
+							},
+							{
+								&quot;x&quot;: 0.016726036,
+								&quot;y&quot;: 0.94117546
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/01g317&quot;,
+					&quot;name&quot;: &quot;Person&quot;,
+					&quot;score&quot;: 0.94618815
+				},
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.35268012,
+								&quot;y&quot;: 0.5149269
+							},
+							{
+								&quot;x&quot;: 0.60895306,
+								&quot;y&quot;: 0.5149269
+							},
+							{
+								&quot;x&quot;: 0.60895306,
+								&quot;y&quot;: 0.6166354
+							},
+							{
+								&quot;x&quot;: 0.35268012,
+								&quot;y&quot;: 0.6166354
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/01llwg&quot;,
+					&quot;name&quot;: &quot;Necklace&quot;,
+					&quot;score&quot;: 0.88771325
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Web</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;webDetection&quot;: {
+				&quot;bestGuessLabels&quot;: [
+					{
+						&quot;label&quot;: &quot;camilla and diana&quot;,
+						&quot;languageCode&quot;: &quot;en&quot;
+					}
+				],
+				&quot;fullMatchingImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://images.capital.ro/wp-content/uploads/2021/05/printesa-diana.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://pages.md/ro/wp-content/uploads/sites/2/2021/05/jurnalistii-de-la-bbc-invinuiti-pentru-deteriorarea-relatiei-dintre-printesa.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/b/ba/Princess_Diana_%28Red_Cross%29_%285139757342%29.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://1079614922.rsc.cdn77.org/data/images/full/192957/princess-diana.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Princess_Diana_%28Red_Cross%29_%285139757342%29.jpg/565px-Princess_Diana_%28Red_Cross%29_%285139757342%29.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Princess_Diana_%28Red_Cross%29_%285139757342%29.jpg/442px-Princess_Diana_%28Red_Cross%29_%285139757342%29.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://es.stories.newsner.com/wp-content/uploads/sites/4/2020/02/441px-Princess_Diana_Red_Cross_5139757342.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;http://www.ukinarabic.co.uk/wp-content/uploads/2021/07/441px-Princess_Diana_Red_Cross_5139757342.jpg&quot;
+					}
+				],
+				&quot;pagesWithMatchingImages&quot;: [
+					{
+						&quot;pageTitle&quot;: &quot;Why would Prince Charles cheat on Princess &lt;b&gt;Diana&lt;/b&gt; with &lt;b&gt;Camilla&lt;/b&gt; ...&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://qph.fs.quoracdn.net/main-qimg-1023ede4c9fed39396453add0bd26547&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.quora.com/Why-would-Prince-Charles-cheat-on-Princess-Diana-with-Camilla-Parker-Bowles-while-Diana-was-much-more-attractive-than-Camilla&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;Princess &lt;b&gt;Diana&amp;#39;s&lt;/b&gt; Most Iconic Outfits - Eighties Kids&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://www.eightieskids.com/wp-content/uploads/2021/05/Princess_Diana_Red_Cross_5139757342-e1622729864573.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.eightieskids.com/princess-dianas-most-iconic-outfits/&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://1079614922.rsc.cdn77.org/data/images/full/192957/princess-diana.jpg&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;Princess &lt;b&gt;Diana&lt;/b&gt; OUTED Prince Charles&amp;#39; Infidelity Instead of Keeping ...&quot;,
+						&quot;url&quot;: &quot;https://www.enstarz.com/articles/210589/20191209/royal-love-affair-why-princess-diana-chose-silenced-over-prince.htm&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;Before she married Prince Charles and became &lt;b&gt;Diana&lt;/b&gt;, princess of ...&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://quipoquiz.com/sn_uploads/quizzes/01_wiki_Princess_Diana_-Red_Cross-_-5139757342-.jpg?maxw=350&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://quipoquiz.com/question/before-she-married-prince-charles-and-became-diana-princess-of-wales-lady-diana-spencer-worked-as-a-kindergarten-assistant&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Princess_Diana_%28Red_Cross%29_%285139757342%29.jpg/565px-Princess_Diana_%28Red_Cross%29_%285139757342%29.jpg&quot;
+							},
+							{
+								&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Princess_Diana_%28Red_Cross%29_%285139757342%29.jpg/442px-Princess_Diana_%28Red_Cross%29_%285139757342%29.jpg&quot;
+							},
+							{
+								&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/b/ba/Princess_Diana_%28Red_Cross%29_%285139757342%29.jpg&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;File:Princess &lt;b&gt;Diana&lt;/b&gt; (Red Cross) (5139757342).jpg - Wikimedia ...&quot;,
+						&quot;url&quot;: &quot;https://commons.wikimedia.org/wiki/File:Princess_Diana_(Red_Cross)_(5139757342).jpg&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;Princess &lt;b&gt;Diana&lt;/b&gt; was &amp;quot;very uncomfortable with Oprah&amp;quot; for one reason&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://cdn.ebs.newsner.com/wp-content/uploads/sites/11/2021/06/PD.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://en.newsner.com/family/princess-diana-was-very-uncomfortable-with-oprah-because-she-manipulated-interviewees-for-higher-ratings-claims-book/&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;Princess &lt;b&gt;Diana&lt;/b&gt; Quotes on Love, People, Life and Affection&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://www.famousquotes123.com/gifs/quotes_images/7454.jpg&quot;
+							},
+							{
+								&quot;url&quot;: &quot;https://www.famousquotes123.com/gifs/quotes_images/404789.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.famousquotes123.com/princess-diana-quotes.html&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://en.stories.newsner.com/wp-content/uploads/sites/3/2020/02/diana.jpg&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;Princess &lt;b&gt;Diana&amp;#39;s&lt;/b&gt; aunt Lady Anne Wake-Walker dies, family confirms&quot;,
+						&quot;url&quot;: &quot;https://en.stories.newsner.com/family/princess-dianas-aunt-lady-anne-wake-walker-dies-family-confirms/&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;TMC - Photos | Facebook&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10158626158703229&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.facebook.com/TMClachaine/photos/?ref=page_internal&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://1079614922.rsc.cdn77.org/data/images/full/192957/princess-diana.jpg&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;Princess &lt;b&gt;Diana&lt;/b&gt; Would Have Solve Prince Harry &amp;amp; William, Kate ...&quot;,
+						&quot;url&quot;: &quot;https://www.enstarz.com/articles/212206/20200317/feuds-between-prince-harry-william-kate-middleton-meghan-markle-could-be-solved-by-princess-diana.htm&quot;
+					}
+				],
+				&quot;partialMatchingImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://images.capital.ro/wp-content/uploads/2021/05/printesa-diana-754x1024.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://pubimg.band.uol.com.br/files/8a070fc49800ee930f5a.png&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://quipoquiz.com/sn_uploads/quizzes/01_wiki_Princess_Diana_-Red_Cross-_-5139757342-.jpg?maxw=350&quot;
+					},
+					{
+						&quot;url&quot;: &quot;http://www.boltonpriory.org.uk/wp-content/uploads/2021/07/Princess_Diana_Red_Cross_5139757342-450x450.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;http://www.boltonpriory.org.uk/wp-content/uploads/2021/07/Princess_Diana_Red_Cross_5139757342-220x220.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.eightieskids.com/wp-content/uploads/2021/05/Princess_Diana_Red_Cross_5139757342-e1622729864573.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://media-exp1.licdn.com/dms/image/C5622AQFyfJsjWBJw4g/feedshare-shrink_800/0/1629082951937?e=1632960000&amp;v=beta&amp;t=b3Bog_92dfUFNs5WLGDwfI9AUemxh-QcLn7ah4WD1S8&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.ukinarabic.co.uk/wp-content/uploads/2021/07/441px-Princess_Diana_Red_Cross_5139757342-441x430.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://pubimg.band.uol.com.br/files/5ae4ad068c53a6f43d0d.png&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.glas-javnosti.rs/site/thumbs?size=200x127&amp;zoom=1&amp;src=uploads/images/1/2021_05_24/MartinBasirDijanaGJ.png&quot;
+					}
+				],
+				&quot;visuallySimilarImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://qph.fs.quoracdn.net/main-qimg-490726d65fd8b08322ab1664cfbb916e-mzj&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/5/5f/PRINCESS_DIANA_wide._%C2%A9_copyright_2010_%285112486245%29.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://i.dailymail.co.uk/1s/2018/11/28/21/6766238-6439795-_Why_aren_t_you_photographing_my_husband_How_Princess_Diana_tipp-m-11_1543441583233.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://i.pinimg.com/originals/50/da/97/50da97c721e6bc9f33ff3a00d196fc45.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://image.gala.de/22361200/t/TG/v4/w480/r1/-/prinzessin-diana.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://static.standard.co.uk/s3fs-public/thumbnails/image/2019/02/26/16/gettyimages-51423824.jpg?width=968&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://thecelebrity.club/wp-content/uploads/2018/08/princess-diana-prince-charles-affair-camilla-parker-bowles-watch-video-1465504.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://cdn.images.express.co.uk/img/dynamic/106/590x/Princess-Diana-news-prince-Charles-camilla-duchess-of-Cornwall-marriage-divorce-love-royal-harry-William-family-1358240.webp?r=1605001024750&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://marriedbiography.com/wp-content/uploads/2018/11/tt.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.cheatsheet.com/wp-content/uploads/2018/06/GettyImages-991338376-e1543524122767-640x428.jpg&quot;
+					}
+				],
+				&quot;webEntities&quot;: [
+					{
+						&quot;description&quot;: &quot;Diana, Princess of Wales&quot;,
+						&quot;entityId&quot;: &quot;/m/06053&quot;,
+						&quot;score&quot;: 1.4988
+					},
+					{
+						&quot;description&quot;: &quot;Wedding of Prince Harry and Meghan Markle&quot;,
+						&quot;entityId&quot;: &quot;/g/11g0289lfb&quot;,
+						&quot;score&quot;: 0.5559
+					},
+					{
+						&quot;description&quot;: &quot;Princess&quot;,
+						&quot;entityId&quot;: &quot;/m/05hmbl&quot;,
+						&quot;score&quot;: 0.5187
+					},
+					{
+						&quot;description&quot;: &quot;Althorp&quot;,
+						&quot;entityId&quot;: &quot;/m/01cc2g&quot;,
+						&quot;score&quot;: 0.4896
+					},
+					{
+						&quot;description&quot;: &quot;Princess of Wales&quot;,
+						&quot;entityId&quot;: &quot;/m/0fdxz&quot;,
+						&quot;score&quot;: 0.4284
+					},
+					{
+						&quot;description&quot;: &quot;British royal family&quot;,
+						&quot;entityId&quot;: &quot;/m/0ckz8&quot;,
+						&quot;score&quot;: 0.4093
+					},
+					{
+						&quot;description&quot;: &quot;Actor&quot;,
+						&quot;entityId&quot;: &quot;/m/02hrh1q&quot;,
+						&quot;score&quot;: 0.292
+					},
+					{
+						&quot;entityId&quot;: &quot;/t/2cvnxcsw4b8sf&quot;,
+						&quot;score&quot;: 0.2697
+					},
+					{
+						&quot;description&quot;: &quot;Camilla, Duchess of Cornwall&quot;,
+						&quot;entityId&quot;: &quot;/m/0158r2&quot;,
+						&quot;score&quot;: 0.10697999
+					},
+					{
+						&quot;description&quot;: &quot;Charles, Prince of Wales&quot;,
+						&quot;entityId&quot;: &quot;/m/0xnc3&quot;,
+						&quot;score&quot;: 0.106065
+					}
+				]
+			}
+		}
+	]
+}
+</pre>
+  </main>
+</body>
+
+</html>

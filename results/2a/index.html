@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="utf-8">
+  
+    <title>Automatic Alt Test Benchmarking - A gravestone</title>
+  
+  <link rel="stylesheet" href="https://mallonbacka.github.io/basic-styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    img{
+      border: 0.3rem solid #999;
+    }
+
+    pre{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      width: 90vw;
+      border: 0.3rem solid #999;
+      padding: 2rem; 
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    
+<a href="/auto-alt-text-results/">Back to list</a>
+<h1>A gravestone</h1>
+<h2>Image</h2>
+
+<picture><source type="image/png" srcset="/auto-alt-text-results/img/4bab428c-600.png 600w"><img alt="A gravestone" loading="lazy" decoding="async" src="/auto-alt-text-results/img/4bab428c-600.jpeg" width="600" height="900"></picture>
+
+<h2>Background Information</h2>
+<ul>
+	<li><strong>Image contains:</strong> A gravestone</li>
+	<li><strong>Reason chosen:</strong>  Imitates &#39;in memoriam&#39; social media posts</li>
+	<li><strong>License:</strong> Unsplash license (Katie Gerrard via Unsplash) <a href="https://unsplash.com/@katiegerrard">Source page</a></li>
+</ul>
+<h2>Test Results</h2>
+<h3>Facebook Auto Alt Text</h3>
+<blockquote>May be an image of outdoors</blockquote>
+<p><strong>Classification:</strong> Misleading</p>
+
+	<p><strong>Notes:</strong> This missed an important detail which changes the meaning of the image - it&#39;s misleading to leave this out and it&#39;s unclear that anything is missing (compared with a filename or failure message)</p>
+
+<h3>Twitter a11y</h3>
+<blockquote>From other pages with same image: gray concrete cross near yellow flowers during daytime</blockquote>
+<p><strong>Classification:</strong> Some contents</p>
+
+<h3>accessiBe</h3>
+<blockquote>Gray concrete cross near yellow flowers during daytime</blockquote>
+<p><strong>Classification:</strong> Some contents</p>
+
+<h2>Benchmarking (Google Cloud Vision API)</h2>
+
+<h3>Labels</h3>
+<pre style="display: block; overflow-x: auto; overflow-y: hidden;">
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;labelAnnotations&quot;: [
+				{
+					&quot;description&quot;: &quot;Plant&quot;,
+					&quot;mid&quot;: &quot;/m/05s2s&quot;,
+					&quot;score&quot;: 0.95593774,
+					&quot;topicality&quot;: 0.95593774
+				},
+				{
+					&quot;description&quot;: &quot;Botany&quot;,
+					&quot;mid&quot;: &quot;/m/01bwr&quot;,
+					&quot;score&quot;: 0.8877261,
+					&quot;topicality&quot;: 0.8877261
+				},
+				{
+					&quot;description&quot;: &quot;Branch&quot;,
+					&quot;mid&quot;: &quot;/m/0b5gs&quot;,
+					&quot;score&quot;: 0.8745031,
+					&quot;topicality&quot;: 0.8745031
+				},
+				{
+					&quot;description&quot;: &quot;Vegetation&quot;,
+					&quot;mid&quot;: &quot;/m/01fnns&quot;,
+					&quot;score&quot;: 0.8648337,
+					&quot;topicality&quot;: 0.8648337
+				},
+				{
+					&quot;description&quot;: &quot;Cemetery&quot;,
+					&quot;mid&quot;: &quot;/m/0h36z&quot;,
+					&quot;score&quot;: 0.85967416,
+					&quot;topicality&quot;: 0.85967416
+				},
+				{
+					&quot;description&quot;: &quot;Headstone&quot;,
+					&quot;mid&quot;: &quot;/m/02vk6x&quot;,
+					&quot;score&quot;: 0.84879744,
+					&quot;topicality&quot;: 0.84879744
+				},
+				{
+					&quot;description&quot;: &quot;Sunlight&quot;,
+					&quot;mid&quot;: &quot;/m/06z0n&quot;,
+					&quot;score&quot;: 0.8457979,
+					&quot;topicality&quot;: 0.8457979
+				},
+				{
+					&quot;description&quot;: &quot;Grass&quot;,
+					&quot;mid&quot;: &quot;/m/08t9c_&quot;,
+					&quot;score&quot;: 0.84211653,
+					&quot;topicality&quot;: 0.84211653
+				},
+				{
+					&quot;description&quot;: &quot;Biome&quot;,
+					&quot;mid&quot;: &quot;/m/01jb4&quot;,
+					&quot;score&quot;: 0.82222205,
+					&quot;topicality&quot;: 0.82222205
+				},
+				{
+					&quot;description&quot;: &quot;Grave&quot;,
+					&quot;mid&quot;: &quot;/m/01vw0_&quot;,
+					&quot;score&quot;: 0.8078532,
+					&quot;topicality&quot;: 0.8078532
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Landmarks</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Logos</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;logoAnnotations&quot;: [
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;vertices&quot;: [
+							{
+								&quot;x&quot;: 1705,
+								&quot;y&quot;: 1903
+							},
+							{
+								&quot;x&quot;: 2388,
+								&quot;y&quot;: 1903
+							},
+							{
+								&quot;x&quot;: 2388,
+								&quot;y&quot;: 2826
+							},
+							{
+								&quot;x&quot;: 1705,
+								&quot;y&quot;: 2826
+							}
+						]
+					},
+					&quot;description&quot;: &quot;Razer Inc.&quot;,
+					&quot;mid&quot;: &quot;/m/075hc0&quot;,
+					&quot;score&quot;: 0.55301034
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Objects</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;localizedObjectAnnotations&quot;: [
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.16636695,
+								&quot;y&quot;: 0.20935525
+							},
+							{
+								&quot;x&quot;: 0.79826206,
+								&quot;y&quot;: 0.20935525
+							},
+							{
+								&quot;x&quot;: 0.79826206,
+								&quot;y&quot;: 0.97503954
+							},
+							{
+								&quot;x&quot;: 0.16636695,
+								&quot;y&quot;: 0.97503954
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/j/5qg9b8&quot;,
+					&quot;name&quot;: &quot;Packaged goods&quot;,
+					&quot;score&quot;: 0.6337037
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Web</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;webDetection&quot;: {
+				&quot;bestGuessLabels&quot;: [
+					{
+						&quot;label&quot;: &quot;grave&quot;
+					}
+				],
+				&quot;fullMatchingImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://images.unsplash.com/photo-1586768930867-6859b3972a0f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dG9tYnN0b25lfGVufDB8fDB8fA%3D%3D&amp;ixlib=rb-1.2.1&amp;w=1000&amp;q=80&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://blog.kakaocdn.net/dn/moX70/btq666TQS7e/U1uX81p5VSwqpuWMpDts60/img.png&quot;
+					}
+				],
+				&quot;pagesWithMatchingImages&quot;: [
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://images.unsplash.com/photo-1586768930867-6859b3972a0f?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHw%3D&amp;w=1000&amp;q=80&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;tombstone scenery photo – Free Grey Image on Unsplash&quot;,
+						&quot;url&quot;: &quot;https://unsplash.com/photos/jCLF7-JNq-k&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://images.unsplash.com/photo-1586768930867-6859b3972a0f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dG9tYnN0b25lfGVufDB8fDB8fA%3D%3D&amp;ixlib=rb-1.2.1&amp;w=1000&amp;q=80&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;Tombstone Pictures | Download Free Images on Unsplash&quot;,
+						&quot;url&quot;: &quot;https://unsplash.com/s/photos/tombstone&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://images.unsplash.com/photo-1586768930867-6859b3972a0f?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&amp;w=1000&amp;q=80&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;blue flowers on gray concrete wall photo - Unsplash&quot;,
+						&quot;url&quot;: &quot;https://unsplash.com/photos/Tu-hkAqzEmU&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://images.unsplash.com/photo-1586768930867-6859b3972a0f?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHw%3D&amp;w=1000&amp;q=80&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;yellow and black snake toy photo – Free Pegwell Image on Unsplash&quot;,
+						&quot;url&quot;: &quot;https://unsplash.com/photos/BGYuQcmecg8&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://images.unsplash.com/photo-1586768930867-6859b3972a0f?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHw%3D&amp;w=1000&amp;q=80&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;girl in red sweater standing beside tree during daytime photo&quot;,
+						&quot;url&quot;: &quot;https://unsplash.com/photos/yKsWb9dQKZQ&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://images.unsplash.com/photo-1586768930867-6859b3972a0f?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&amp;w=1000&amp;q=80&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;gray concrete tomb stone near green grass photo - Unsplash&quot;,
+						&quot;url&quot;: &quot;https://unsplash.com/photos/RbkqN6RHYw0&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://images.unsplash.com/photo-1586768930867-6859b3972a0f?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&amp;w=1000&amp;q=80&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;white and blue flowers on brown grass photo - Unsplash&quot;,
+						&quot;url&quot;: &quot;https://unsplash.com/photos/d4brbpfzyk4&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://images.unsplash.com/photo-1586768930867-6859b3972a0f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;gray concrete cross near yellow flowers during daytime photo&quot;,
+						&quot;url&quot;: &quot;https://unsplash.com/photos/LCFCEJ1eWek&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://images.unsplash.com/photo-1586768930867-6859b3972a0f?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHw%3D&amp;w=1000&amp;q=80&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;brown wooden door with black and white floral design photo&quot;,
+						&quot;url&quot;: &quot;https://unsplash.com/photos/Ze8Kq168lTs&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://blog.kakaocdn.net/dn/moX70/btq666TQS7e/U1uX81p5VSwqpuWMpDts60/img.png&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;구글에 입사하면 받는 복지혜택 - 별찌의 하루&quot;,
+						&quot;url&quot;: &quot;https://hasllachoi.tistory.com/entry/%EA%B5%AC%EA%B8%80%EC%97%90%EC%9E%85%EC%82%AC%ED%95%98%EB%A9%B4%EB%B0%9B%EB%8A%94%EB%B3%B5%EC%A7%80%ED%98%9C%ED%83%9D?category=1134825&quot;
+					}
+				],
+				&quot;visuallySimilarImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://algenweb.org/fayette/Pix/SELMAN_RevBT_ts.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://images.findagrave.com/photos250/photos/2011/158/39713086_130759301553.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://images.findagrave.com/photos250/photos/2012/267/71812954_134854393185.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.lackawannapagenweb.com/cemeteries/images/StratfordCemeteryAbandoned15.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/1/1a/Grave_Otto_Heinrich_Warburg_St-Annen-Kirchhof_Dahlem.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://green-island.holiday/images/activities/britishcemetry/corfu_brits_18.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://c8.alamy.com/comp/BEMADH/para-rubber-tree-hevea-brasiliensis-being-tapped-to-collect-latex-BEMADH.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://storage.needpix.com/rsynced_images/tree-507610_1280.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://5.imimg.com/data5/QD/IW/ZC/SELLER-27515495/yellow-color-led-tree-500x500.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://chandigarhx.com/wp-content/uploads/2020/02/Waterfall_at_Rock_Garden_Chandigarh.jpg&quot;
+					}
+				],
+				&quot;webEntities&quot;: [
+					{
+						&quot;description&quot;: &quot;Headstone&quot;,
+						&quot;entityId&quot;: &quot;/m/02vk6x&quot;,
+						&quot;score&quot;: 0.8924741
+					},
+					{
+						&quot;description&quot;: &quot;stock.xchng&quot;,
+						&quot;entityId&quot;: &quot;/m/03zfrv&quot;,
+						&quot;score&quot;: 0.4854
+					},
+					{
+						&quot;description&quot;: &quot;Photograph&quot;,
+						&quot;entityId&quot;: &quot;/m/068jd&quot;,
+						&quot;score&quot;: 0.4849
+					},
+					{
+						&quot;description&quot;: &quot;Photography&quot;,
+						&quot;entityId&quot;: &quot;/m/05wkw&quot;,
+						&quot;score&quot;: 0.4583
+					},
+					{
+						&quot;description&quot;: &quot;Black and white&quot;,
+						&quot;entityId&quot;: &quot;/m/01g6gs&quot;,
+						&quot;score&quot;: 0.4434
+					},
+					{
+						&quot;description&quot;: &quot;Cemetery&quot;,
+						&quot;entityId&quot;: &quot;/m/0h36z&quot;,
+						&quot;score&quot;: 0.43331727
+					},
+					{
+						&quot;description&quot;: &quot;Unsplash&quot;,
+						&quot;entityId&quot;: &quot;/g/11c617qd8m&quot;,
+						&quot;score&quot;: 0.3868
+					},
+					{
+						&quot;description&quot;: &quot;Image&quot;,
+						&quot;entityId&quot;: &quot;/m/0jg24&quot;,
+						&quot;score&quot;: 0.373
+					},
+					{
+						&quot;description&quot;: &quot;Portrait&quot;,
+						&quot;entityId&quot;: &quot;/m/01dv4h&quot;,
+						&quot;score&quot;: 0.3534
+					},
+					{
+						&quot;description&quot;: &quot;Grayscale&quot;,
+						&quot;entityId&quot;: &quot;/m/02cjh0&quot;,
+						&quot;score&quot;: 0.3338
+					}
+				]
+			}
+		}
+	]
+}
+</pre>
+  </main>
+</body>
+
+</html>

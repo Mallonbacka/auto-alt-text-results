@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="utf-8">
+  
+    <title>Automatic Alt Test Benchmarking - Pancakes</title>
+  
+  <link rel="stylesheet" href="https://mallonbacka.github.io/basic-styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    img{
+      border: 0.3rem solid #999;
+    }
+
+    pre{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      width: 90vw;
+      border: 0.3rem solid #999;
+      padding: 2rem; 
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    
+<a href="/auto-alt-text-results/">Back to list</a>
+<h1>Pancakes</h1>
+<h2>Image</h2>
+
+<picture><source type="image/png" srcset="/auto-alt-text-results/img/7f46c145-600.png 600w"><img alt="Pancakes" loading="lazy" decoding="async" src="/auto-alt-text-results/img/7f46c145-600.jpeg" width="600" height="900"></picture>
+
+<h2>Background Information</h2>
+<ul>
+	<li><strong>Image contains:</strong> Pancakes</li>
+	<li><strong>Reason chosen:</strong> Images of food are popular on social media</li>
+	<li><strong>License:</strong> Unsplash License (Calum Lewis via Unsplash) <a href="https://unsplash.com/@calumlewis">Source page</a></li>
+</ul>
+<h2>Test Results</h2>
+<h3>Facebook Auto Alt Text</h3>
+<blockquote>May be an image of fruit and indoor</blockquote>
+<p><strong>Classification:</strong> Some contents</p>
+
+<h3>Twitter a11y</h3>
+<blockquote>From other pages with same image: Pancake dishes</blockquote>
+<p><strong>Classification:</strong> Acceptable alternative</p>
+
+<h3>accessiBe</h3>
+<blockquote>KEEP A FRON. Pancakes with black berries on white ceramic plate beside clear drinking glass</blockquote>
+<p><strong>Classification:</strong> Acceptable alternative</p>
+
+<h2>Benchmarking (Google Cloud Vision API)</h2>
+
+<h3>Labels</h3>
+<pre style="display: block; overflow-x: auto; overflow-y: hidden;">
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;labelAnnotations&quot;: [
+				{
+					&quot;description&quot;: &quot;Food&quot;,
+					&quot;mid&quot;: &quot;/m/02wbm&quot;,
+					&quot;score&quot;: 0.9802653,
+					&quot;topicality&quot;: 0.9802653
+				},
+				{
+					&quot;description&quot;: &quot;Tableware&quot;,
+					&quot;mid&quot;: &quot;/m/04brg2&quot;,
+					&quot;score&quot;: 0.96704274,
+					&quot;topicality&quot;: 0.96704274
+				},
+				{
+					&quot;description&quot;: &quot;Table&quot;,
+					&quot;mid&quot;: &quot;/m/04bcr3&quot;,
+					&quot;score&quot;: 0.960895,
+					&quot;topicality&quot;: 0.960895
+				},
+				{
+					&quot;description&quot;: &quot;Dishware&quot;,
+					&quot;mid&quot;: &quot;/m/0h8nvk9&quot;,
+					&quot;score&quot;: 0.93151027,
+					&quot;topicality&quot;: 0.93151027
+				},
+				{
+					&quot;description&quot;: &quot;Hat&quot;,
+					&quot;mid&quot;: &quot;/m/02dl1y&quot;,
+					&quot;score&quot;: 0.9227273,
+					&quot;topicality&quot;: 0.9227273
+				},
+				{
+					&quot;description&quot;: &quot;Drinkware&quot;,
+					&quot;mid&quot;: &quot;/m/050h26&quot;,
+					&quot;score&quot;: 0.9134173,
+					&quot;topicality&quot;: 0.9134173
+				},
+				{
+					&quot;description&quot;: &quot;Ingredient&quot;,
+					&quot;mid&quot;: &quot;/m/07xgrh&quot;,
+					&quot;score&quot;: 0.8982609,
+					&quot;topicality&quot;: 0.8982609
+				},
+				{
+					&quot;description&quot;: &quot;Plate&quot;,
+					&quot;mid&quot;: &quot;/m/050gv4&quot;,
+					&quot;score&quot;: 0.8806238,
+					&quot;topicality&quot;: 0.8806238
+				},
+				{
+					&quot;description&quot;: &quot;Serveware&quot;,
+					&quot;mid&quot;: &quot;/m/0h8n22v&quot;,
+					&quot;score&quot;: 0.8695131,
+					&quot;topicality&quot;: 0.8695131
+				},
+				{
+					&quot;description&quot;: &quot;Cake&quot;,
+					&quot;mid&quot;: &quot;/m/0fszt&quot;,
+					&quot;score&quot;: 0.8695123,
+					&quot;topicality&quot;: 0.8695123
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Landmarks</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Logos</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Objects</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;localizedObjectAnnotations&quot;: [
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.09491104,
+								&quot;y&quot;: 0.75699645
+							},
+							{
+								&quot;x&quot;: 0.8256197,
+								&quot;y&quot;: 0.75699645
+							},
+							{
+								&quot;x&quot;: 0.8256197,
+								&quot;y&quot;: 0.9789374
+							},
+							{
+								&quot;x&quot;: 0.09491104,
+								&quot;y&quot;: 0.9789374
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/0dt3t&quot;,
+					&quot;name&quot;: &quot;Fork&quot;,
+					&quot;score&quot;: 0.9326246
+				},
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.6211991,
+								&quot;y&quot;: 0.14669912
+							},
+							{
+								&quot;x&quot;: 0.79298276,
+								&quot;y&quot;: 0.14669912
+							},
+							{
+								&quot;x&quot;: 0.79298276,
+								&quot;y&quot;: 0.3066298
+							},
+							{
+								&quot;x&quot;: 0.6211991,
+								&quot;y&quot;: 0.3066298
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/04brg2&quot;,
+					&quot;name&quot;: &quot;Tableware&quot;,
+					&quot;score&quot;: 0.7895207
+				},
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.7947752,
+								&quot;y&quot;: 0.6249359
+							},
+							{
+								&quot;x&quot;: 0.9945546,
+								&quot;y&quot;: 0.6249359
+							},
+							{
+								&quot;x&quot;: 0.9945546,
+								&quot;y&quot;: 0.81687623
+							},
+							{
+								&quot;x&quot;: 0.7947752,
+								&quot;y&quot;: 0.81687623
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/04brg2&quot;,
+					&quot;name&quot;: &quot;Tableware&quot;,
+					&quot;score&quot;: 0.7612649
+				},
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.08280689,
+								&quot;y&quot;: 0.20169877
+							},
+							{
+								&quot;x&quot;: 0.27606013,
+								&quot;y&quot;: 0.20169877
+							},
+							{
+								&quot;x&quot;: 0.27606013,
+								&quot;y&quot;: 0.42144904
+							},
+							{
+								&quot;x&quot;: 0.08280689,
+								&quot;y&quot;: 0.42144904
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/04brg2&quot;,
+					&quot;name&quot;: &quot;Tableware&quot;,
+					&quot;score&quot;: 0.72839355
+				},
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.20276237,
+								&quot;y&quot;: 0.39727178
+							},
+							{
+								&quot;x&quot;: 0.90672016,
+								&quot;y&quot;: 0.39727178
+							},
+							{
+								&quot;x&quot;: 0.90672016,
+								&quot;y&quot;: 0.66058034
+							},
+							{
+								&quot;x&quot;: 0.20276237,
+								&quot;y&quot;: 0.66058034
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/02wbm&quot;,
+					&quot;name&quot;: &quot;Food&quot;,
+					&quot;score&quot;: 0.696795
+				},
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.09943097,
+								&quot;y&quot;: 0.27077216
+							},
+							{
+								&quot;x&quot;: 0.27294567,
+								&quot;y&quot;: 0.27077216
+							},
+							{
+								&quot;x&quot;: 0.27294567,
+								&quot;y&quot;: 0.4105126
+							},
+							{
+								&quot;x&quot;: 0.09943097,
+								&quot;y&quot;: 0.4105126
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/02wbm&quot;,
+					&quot;name&quot;: &quot;Food&quot;,
+					&quot;score&quot;: 0.62024117
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Web</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;webDetection&quot;: {
+				&quot;bestGuessLabels&quot;: [
+					{
+						&quot;label&quot;: &quot;pancakes 4k&quot;,
+						&quot;languageCode&quot;: &quot;en&quot;
+					}
+				],
+				&quot;fullMatchingImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://girlssouls.ru/images/cms/headers/%D0%A2%D0%B5%D1%81%D1%82%20%D0%B1%D0%BB%D0%B8%D0%BD%D1%8B/calum-lewis-8nc_oqsc2qq-unsplash.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;http://www.alsace-lait.com/wp-content/uploads/2017/11/pancakes-min.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://i2.wp.com/1048s.com/wp-content/uploads/2019/07/2C76C818-3D3F-480E-A52E-697DFD2230B0.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://images.squarespace-cdn.com/content/v1/5dba67f82c0d5772bca93881/1572535217070-AYT3M0E1DH1UGEWJOGOZ/calum-lewis-8Nc_oQsc2qQ-unsplash.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://miro.medium.com/max/2625/0*aF1NM4om6NjUZNPN&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://irishtatler.com/uploads/assets/2019/8/calum-lewis-8Nc_oQsc2qQ-unsplash.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://images.squarespace-cdn.com/content/v1/599dbc837131a57e6330329d/1562427191523-0YCIGIQSN44LACNREKDV/calum-lewis-8Nc_oQsc2qQ-unsplash.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://marinenutrition.files.wordpress.com/2019/06/pancakes.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://torontogo.net/images/attach/687/20200531-16050101.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://midtfyns-haandbold.dk/wp-content/uploads/2019/02/8Nc_oQsc2qQ.jpeg&quot;
+					}
+				],
+				&quot;pagesWithMatchingImages&quot;: [
+					{
+						&quot;pageTitle&quot;: &quot;Top Free &lt;b&gt;Pancake&lt;/b&gt; Backgrounds - WallpaperAccess&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://wallpaperaccess.com/full/3759374.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://wallpaperaccess.com/pancake&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://wallpapercrafter.com/desktop/284471-pancakes-for-breakfast.jpg&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;259224 / pile of &lt;b&gt;pancakes 4k&lt;/b&gt; wallpaper&quot;,
+						&quot;url&quot;: &quot;https://wallpapercrafter.com/259224-___pile-of-pancakes.html&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://wallpapercrafter.com/desktop/284471-pancakes-for-breakfast.jpg&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;Filename: matcha spirulina &lt;b&gt;pancakes 4k&lt;/b&gt; wallpaper&quot;,
+						&quot;url&quot;: &quot;https://wallpapercrafter.com/248764-___matcha-spirulina-pancakes.html&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://wallpapercrafter.com/desktop/284471-pancakes-for-breakfast.jpg&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;284471 / &lt;b&gt;pancakes&lt;/b&gt; for breakfast &lt;b&gt;4k&lt;/b&gt; wallpaper&quot;,
+						&quot;url&quot;: &quot;https://wallpapercrafter.com/284471-___pancakes-for-breakfast.html&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/yzbsqwfc/30631814-9780-4277-ab0d-21b08121007a.jpg&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;Specialty &lt;b&gt;Pancakes&lt;/b&gt; - Breakfast - Caleb&amp;#39;s Breakfast &amp;amp; Lunch&quot;,
+						&quot;url&quot;: &quot;https://www.calebskc.com/items/specialty-pancakes&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;http://static1.squarespace.com/static/5a3af4adb7411c4078a7308e/5a583ae48165f5b4e574d29f/5a59128571c10b2e422a6e69/1550702640979/calum-lewis-387612-unsplash.jpg?format=1500w&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;&lt;b&gt;Pancakes&lt;/b&gt; (Per Person) - Bella Tahoe Catering &amp;amp; Deli&quot;,
+						&quot;url&quot;: &quot;https://bellatahoe.com/brunch-1/pancakes-per-person&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;&lt;b&gt;Pancakes&lt;/b&gt; Wallpaper posted by Ryan Thompson - CuteWallpaper.org&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://cutewallpaper.org/21/pancakes-wallpaper/blue-and-white-ceramic-plate-with-pancakes-photo-Free-Food-.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://cutewallpaper.org/21/pancakes-wallpaper/view-page-21.html&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://oceanranchorganics.com/wp-content/uploads/2019/02/calum-lewis-387612-unsplash.jpg&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;Lemon Blueberry Surprise &lt;b&gt;Pancakes&lt;/b&gt; - Ocean Ranch Organics&quot;,
+						&quot;url&quot;: &quot;https://oceanranchorganics.com/lemon-blueberry-surprise-pancakes/&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;http://images.unsplash.com/photo-1506084868230-bb9d95c24759?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjMwNDk2MDY2&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;blue and white ceramic plate with &lt;b&gt;pancakes&lt;/b&gt; photo - Unsplash&quot;,
+						&quot;url&quot;: &quot;https://unsplash.com/photos/8Nc_oQsc2qQ&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;&lt;b&gt;pancakes&lt;/b&gt; with berries on white ceramic plate photo - Unsplash&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://images.unsplash.com/photo-1506084868230-bb9d95c24759?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8Uml6ZWtYN2poM0F8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=416&amp;q=60&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://unsplash.com/photos/MytHEJlzdcM&quot;
+					}
+				],
+				&quot;partialMatchingImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://static.designmynight.com/uploads/2018/11/pancake-optimised.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://popmenucloud.com/cdn-cgi/image/width=1200,height=1200,fit=scale-down,format=auto,quality=60/yzbsqwfc/30631814-9780-4277-ab0d-21b08121007a.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;http://liyelaretreat.com/img/eat4.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.wijnspijs.nl/magazine/wp-content/uploads/2021/03/bananenpannenkoek.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://foodini.nl/app/uploads/2019/03/calum-lewis-387612-unsplash-683x1024.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://tu.bobopic.com/tupian/2018/11/15/dangaotupian4.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://i2.wp.com/mangakel.com/wp-content/uploads/2021/01/calum-lewis-8Nc_oQsc2qQ-unsplash-1.jpg?fit=800%2C1200&amp;ssl=1&amp;w=640&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://images.squarespace-cdn.com/content/v1/5c9259c8a09a7e04d1d7e240/1564149784084-8UCLXXBQ1ODK1A3YY38J/photo-1506084868230-bb9d95c24759.jpeg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://images.unsplash.com/photo-1506084868230-bb9d95c24759?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8MTM5OTUxNnx8ZW58MHx8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=416&amp;q=60&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://cutewallpaper.org/21/pancakes-wallpaper/blue-and-white-ceramic-plate-with-pancakes-photo-Free-Food-.jpg&quot;
+					}
+				],
+				&quot;visuallySimilarImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://w0.peakpx.com/wallpaper/350/954/HD-wallpaper-food-pancake-berry-blueberry.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://thumbs.dreamstime.com/b/closeup-pancakes-blueberries-iron-skillet-closeup-pancakes-blueberries-iron-skillet-mint-leaves-top-186821809.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://thumbs.dreamstime.com/b/blueberry-pancakes-fork-blue-napkin-blueberry-pancakes-fork-blue-napkin-bowl-berries-183111834.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://c0.wallpaperflare.com/preview/541/25/204/philippines-mandaluyong-breakfast-coffee.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://lowcarbcrave.com/wp-content/uploads/2018/10/light-fluffy-keto-pancakes-1.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://wallpapercrafter.com/desktop/236476-pancakes.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://c0.wallpaperflare.com/preview/988/121/254/thailand-bangkok-pancakes-yum.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://c2.peakpx.com/wallpaper/69/582/325/4k-blueberry-fruit-pancake-wallpaper-thumb.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://ak.picdn.net/shutterstock/videos/1063223845/thumb/1.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://media.istockphoto.com/photos/stack-of-quark-pancakes-with-cherry-picture-id688540370?s=612x612&quot;
+					}
+				],
+				&quot;webEntities&quot;: [
+					{
+						&quot;description&quot;: &quot;Panqueque&quot;,
+						&quot;entityId&quot;: &quot;/m/01dwwc&quot;,
+						&quot;score&quot;: 1.4997001
+					},
+					{
+						&quot;description&quot;: &quot;Breakfast&quot;,
+						&quot;entityId&quot;: &quot;/m/0hz4q&quot;,
+						&quot;score&quot;: 0.90345
+					},
+					{
+						&quot;description&quot;: &quot;Waffle&quot;,
+						&quot;entityId&quot;: &quot;/m/01dwsz&quot;,
+						&quot;score&quot;: 0.90045
+					},
+					{
+						&quot;description&quot;: &quot;Pancake breakfast&quot;,
+						&quot;entityId&quot;: &quot;/m/0wxn_dr&quot;,
+						&quot;score&quot;: 0.6723
+					},
+					{
+						&quot;description&quot;: &quot;Blueberry pancakes&quot;,
+						&quot;entityId&quot;: &quot;/g/11lrwh6mm0&quot;,
+						&quot;score&quot;: 0.6509
+					},
+					{
+						&quot;description&quot;: &quot;Crêpe&quot;,
+						&quot;entityId&quot;: &quot;/m/01x5j8&quot;,
+						&quot;score&quot;: 0.6432
+					},
+					{
+						&quot;description&quot;: &quot;Fruit&quot;,
+						&quot;entityId&quot;: &quot;/m/02xwb&quot;,
+						&quot;score&quot;: 0.5592
+					},
+					{
+						&quot;description&quot;: &quot;Spirulina pancake&quot;,
+						&quot;entityId&quot;: &quot;/g/11lsh0mn77&quot;,
+						&quot;score&quot;: 0.5559
+					},
+					{
+						&quot;description&quot;: &quot;Old fashioned pancakes&quot;,
+						&quot;entityId&quot;: &quot;/g/11n5zkz7zz&quot;,
+						&quot;score&quot;: 0.5474
+					},
+					{
+						&quot;description&quot;: &quot;Vegan gluten free pancakes&quot;,
+						&quot;entityId&quot;: &quot;/g/11n5zkjd1r&quot;,
+						&quot;score&quot;: 0.5299
+					}
+				]
+			}
+		}
+	]
+}
+</pre>
+  </main>
+</body>
+
+</html>

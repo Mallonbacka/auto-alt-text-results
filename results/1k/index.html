@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="utf-8">
+  
+    <title>Automatic Alt Test Benchmarking - Photograph of a specimen identity card</title>
+  
+  <link rel="stylesheet" href="https://mallonbacka.github.io/basic-styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    img{
+      border: 0.3rem solid #999;
+    }
+
+    pre{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      width: 90vw;
+      border: 0.3rem solid #999;
+      padding: 2rem; 
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    
+<a href="/auto-alt-text-results/">Back to list</a>
+<h1>Photograph of a specimen identity card</h1>
+<h2>Image</h2>
+
+<picture><source type="image/png" srcset="/auto-alt-text-results/img/ea438f65-600.png 600w"><img alt="Photograph of a specimen identity card" loading="lazy" decoding="async" src="/auto-alt-text-results/img/ea438f65-600.jpeg" width="600" height="444"></picture>
+
+<h2>Background Information</h2>
+<ul>
+	<li><strong>Image contains:</strong> Photograph of a specimen identity card</li>
+	<li><strong>Reason chosen:</strong> the text included is not relevant to understanding the image</li>
+	<li><strong>License:</strong> Public sector (Suomen poliisi (Police of Finland)) <a href="https://poliisi.fi/en/-/fingerprints-in-id-cards-valid-as-travel-documents?utm_source=dlvr.it&amp;utm_medium=twitter">Source page</a></li>
+</ul>
+<h2>Test Results</h2>
+<h3>Facebook Auto Alt Text</h3>
+<blockquote>May be an image of 1 person</blockquote>
+<p><strong>Classification:</strong> Misleading</p>
+
+	<p><strong>Notes:</strong> This isn&#39;t an image of a person, it&#39;s an image of an ID card, which contains an image of a person</p>
+
+<h3>Twitter a11y</h3>
+<blockquote>From automatic captioning: Text</blockquote>
+<p><strong>Classification:</strong> Misleading</p>
+
+<h3>accessiBe</h3>
+<blockquote>California identification card on white table | SUOMI FINLAND • HENKILÖKORTTI IDENTITETSKORT IDENTITY CARD, SUKUNIMI- ( 1 ) MATKAILIJA, ETUNIMET ( 2 ), MATTI, SPECIMEN, KANSALAISUUS NATIONALITET ( 4 ) FIN SYNTYMÄAIKA FÖDELSEDATUM ( 5 ) TUNNUS 6 ) 01.1950 010150-113X MYÖNNETTY UTFÄRDAT ( 7 ) VOIMASSA T.O.M. ( 8 ) 02.08.2021 02.08.2026 KORTTINUMERO KORTNUMMER ( 9 ) CAN 000000000 123456, ( 10 )</blockquote>
+<p><strong>Classification:</strong> Misleading</p>
+
+	<p><strong>Notes: </strong>Not California, and most of the text isn&#39;t useful to understanding in the original context</p>
+
+<h2>Benchmarking (Google Cloud Vision API)</h2>
+
+<h3>Labels</h3>
+<pre style="display: block; overflow-x: auto; overflow-y: hidden;">
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;labelAnnotations&quot;: [
+				{
+					&quot;description&quot;: &quot;Signature&quot;,
+					&quot;mid&quot;: &quot;/m/06n0n&quot;,
+					&quot;score&quot;: 0.86953926,
+					&quot;topicality&quot;: 0.86953926
+				},
+				{
+					&quot;description&quot;: &quot;Rectangle&quot;,
+					&quot;mid&quot;: &quot;/m/0j62f&quot;,
+					&quot;score&quot;: 0.8384163,
+					&quot;topicality&quot;: 0.8384163
+				},
+				{
+					&quot;description&quot;: &quot;Identity document&quot;,
+					&quot;mid&quot;: &quot;/m/01_v7j&quot;,
+					&quot;score&quot;: 0.81837046,
+					&quot;topicality&quot;: 0.81837046
+				},
+				{
+					&quot;description&quot;: &quot;Font&quot;,
+					&quot;mid&quot;: &quot;/m/03gq5hm&quot;,
+					&quot;score&quot;: 0.8170564,
+					&quot;topicality&quot;: 0.8170564
+				},
+				{
+					&quot;description&quot;: &quot;Collectable&quot;,
+					&quot;mid&quot;: &quot;/m/0ggr_&quot;,
+					&quot;score&quot;: 0.70159066,
+					&quot;topicality&quot;: 0.70159066
+				},
+				{
+					&quot;description&quot;: &quot;Electric blue&quot;,
+					&quot;mid&quot;: &quot;/m/02vwbzz&quot;,
+					&quot;score&quot;: 0.6977487,
+					&quot;topicality&quot;: 0.6977487
+				},
+				{
+					&quot;description&quot;: &quot;Paper&quot;,
+					&quot;mid&quot;: &quot;/m/0641k&quot;,
+					&quot;score&quot;: 0.6802052,
+					&quot;topicality&quot;: 0.6802052
+				},
+				{
+					&quot;description&quot;: &quot;Banknote&quot;,
+					&quot;mid&quot;: &quot;/m/01dl3j&quot;,
+					&quot;score&quot;: 0.6798483,
+					&quot;topicality&quot;: 0.6798483
+				},
+				{
+					&quot;description&quot;: &quot;Debit card&quot;,
+					&quot;mid&quot;: &quot;/m/02h5d&quot;,
+					&quot;score&quot;: 0.6509445,
+					&quot;topicality&quot;: 0.6509445
+				},
+				{
+					&quot;description&quot;: &quot;Ticket&quot;,
+					&quot;mid&quot;: &quot;/m/02py351&quot;,
+					&quot;score&quot;: 0.6177778,
+					&quot;topicality&quot;: 0.6177778
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Landmarks</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Logos</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;logoAnnotations&quot;: [
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;vertices&quot;: [
+							{
+								&quot;x&quot;: 995,
+								&quot;y&quot;: 129
+							},
+							{
+								&quot;x&quot;: 1083,
+								&quot;y&quot;: 129
+							},
+							{
+								&quot;x&quot;: 1083,
+								&quot;y&quot;: 180
+							},
+							{
+								&quot;x&quot;: 995,
+								&quot;y&quot;: 180
+							}
+						]
+					},
+					&quot;description&quot;: &quot;Te &amp; Kaffi&quot;,
+					&quot;mid&quot;: &quot;/g/11c6w0r00f&quot;,
+					&quot;score&quot;: 0.60043687
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Objects</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;localizedObjectAnnotations&quot;: [
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.099511325,
+								&quot;y&quot;: 0.3236337
+							},
+							{
+								&quot;x&quot;: 0.322104,
+								&quot;y&quot;: 0.3236337
+							},
+							{
+								&quot;x&quot;: 0.322104,
+								&quot;y&quot;: 0.70123917
+							},
+							{
+								&quot;x&quot;: 0.099511325,
+								&quot;y&quot;: 0.70123917
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/01g317&quot;,
+					&quot;name&quot;: &quot;Person&quot;,
+					&quot;score&quot;: 0.56988764
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Web</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;webDetection&quot;: {
+				&quot;bestGuessLabels&quot;: [
+					{
+						&quot;label&quot;: &quot;ulkomaalaisen henkilökortti&quot;,
+						&quot;languageCode&quot;: &quot;fi&quot;
+					}
+				],
+				&quot;fullMatchingImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://abounderrattelser.fi/wp-content/uploads/2021/07/sdl73RAa2e-jVQ-nh.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://valtioneuvosto.fi/documents/25235045/45963709/Matkustusoikeudellinen-henkil%C3%B6kortti.jpg/04a805d3-b6d9-7921-f15d-89474bcdfd74?t=1625136530885&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2775213476051464&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://pbs.twimg.com/media/E5NQPWRUcAQak_N.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://valtioneuvosto.fi/documents/25235045/45963709/Matkustusoikeudellinen-henkil%C3%B6kortti.jpg/04a805d3-b6d9-7921-f15d-89474bcdfd74?t=1625136530885&amp;width=1200&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://poliisiuutiset.fi/wp-content/uploads/2021/07/04a805d3-b6d9-7921-f15d-89474bcdfd74-1024x759.jpeg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://cdn.hssmedia.fi/Newsmedia/2021/07/01/980/1c5b49258aa17505f816b78b91bb362f.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://reska.fi/assets/HenkilokorttiEtupuoli.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://imengine.public.prod.ksf.infomaker.io/imengine/image.php?uuid=e7951bb7-fe58-41df-a350-df310e130a7e&amp;type=preview&amp;source=e7951bb7-fe58-41df-a350-df310e130a7e&amp;function=hardcrop&amp;width=400&amp;height=296&amp;q=80&quot;
+					}
+				],
+				&quot;visuallySimilarImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://poliisi.fi/documents/25235045/45963709/Matkustusoikeudellinen-henkil%C3%B6kortti.jpg/04a805d3-b6d9-7921-f15d-89474bcdfd74?t=1625136530885&amp;width=1200&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://hs.mediadelivery.fi/img/468/1eaee56c5673458c8f459909620a5164.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;x-raw-image:///bf7a6f81804fe4bf3f30bfee16af02ba83f1c60905054e1900aa8422de23551b&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.kdpuolue.fi/lehti/files/2016/04/2016_henkilokortti.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;http://www.poliisi.fi/instancedata/prime_product_julkaisu/intermin/embeds/polisenaxwwwstructure/54927_Henkilokortti_3.jpg?a89bdee7312ed488&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://fi.freejournal.org/storage/big/215374.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://estofennia.eu/wp-content/uploads/2017/08/ID-kortit169.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://static.wixstatic.com/media/2ec4da_92169dba0bcf4e49bce36aa0232263f1~mv2.jpg/v1/fill/w_594,h_365,al_c/2ec4da_92169dba0bcf4e49bce36aa0232263f1~mv2.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.nettiaseet.fi/uploads/image/15401_15500/mossberg-mod-195-k-a-15427_af3771132b3cf9e6_858X617_b.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://static-cdn.sr.se/images/185/1720047_1200_675.jpg&quot;
+					}
+				],
+				&quot;webEntities&quot;: [
+					{
+						&quot;description&quot;: &quot;Identity document&quot;,
+						&quot;entityId&quot;: &quot;/m/01_v7j&quot;,
+						&quot;score&quot;: 0.9887
+					},
+					{
+						&quot;description&quot;: &quot;Passport&quot;,
+						&quot;entityId&quot;: &quot;/m/05sv1&quot;,
+						&quot;score&quot;: 0.6218
+					},
+					{
+						&quot;description&quot;: &quot;Swedish passport&quot;,
+						&quot;entityId&quot;: &quot;/m/02vxmgd&quot;,
+						&quot;score&quot;: 0.4996
+					},
+					{
+						&quot;description&quot;: &quot;Fingerprint&quot;,
+						&quot;entityId&quot;: &quot;/m/0lkc0&quot;,
+						&quot;score&quot;: 0.456
+					},
+					{
+						&quot;description&quot;: &quot;European Union&quot;,
+						&quot;entityId&quot;: &quot;/m/0_6t_z8&quot;,
+						&quot;score&quot;: 0.45405
+					},
+					{
+						&quot;description&quot;: &quot;Police of Finland&quot;,
+						&quot;entityId&quot;: &quot;/m/012vxzr3&quot;,
+						&quot;score&quot;: 0.4336
+					},
+					{
+						&quot;description&quot;: &quot;Finnish passport&quot;,
+						&quot;entityId&quot;: &quot;/m/02vxm97&quot;,
+						&quot;score&quot;: 0.4186
+					},
+					{
+						&quot;entityId&quot;: &quot;/t/22hhhj7k9yc4w&quot;,
+						&quot;score&quot;: 0.4058
+					},
+					{
+						&quot;description&quot;: &quot;National identity cards in the European Economic Area&quot;,
+						&quot;entityId&quot;: &quot;/m/0p8w0cm&quot;,
+						&quot;score&quot;: 0.3667
+					},
+					{
+						&quot;description&quot;: &quot;European identity card&quot;,
+						&quot;entityId&quot;: &quot;/g/11jn4vxbvq&quot;,
+						&quot;score&quot;: 0.351
+					}
+				]
+			}
+		}
+	]
+}
+</pre>
+  </main>
+</body>
+
+</html>

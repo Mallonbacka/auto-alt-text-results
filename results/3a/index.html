@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="utf-8">
+  
+    <title>Automatic Alt Test Benchmarking - Albert Einstein</title>
+  
+  <link rel="stylesheet" href="https://mallonbacka.github.io/basic-styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    img{
+      border: 0.3rem solid #999;
+    }
+
+    pre{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      width: 90vw;
+      border: 0.3rem solid #999;
+      padding: 2rem; 
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    
+<a href="/auto-alt-text-results/">Back to list</a>
+<h1>Albert Einstein</h1>
+<h2>Image</h2>
+
+<picture><source type="image/png" srcset="/auto-alt-text-results/img/25bfda2d-600.png 600w"><img alt="Albert Einstein" loading="lazy" decoding="async" src="/auto-alt-text-results/img/25bfda2d-600.jpeg" width="600" height="787"></picture>
+
+<h2>Background Information</h2>
+<ul>
+	<li><strong>Image contains:</strong> Albert Einstein</li>
+	<li><strong>Reason chosen:</strong> A highly recognisable historical figure</li>
+	<li><strong>License:</strong> Public domain (Ferdinand Schmutzer via Wikipedia) <a href="https://en.wikipedia.org/wiki/File:Einstein_1921_by_F_Schmutzer_-_restoration.jpg">Source page</a></li>
+</ul>
+<h2>Test Results</h2>
+<h3>Facebook Auto Alt Text</h3>
+<blockquote>May be an image of 1 person</blockquote>
+<p><strong>Classification:</strong> Some contents</p>
+
+<h3>Twitter a11y</h3>
+<blockquote>From other pages with same image: چگونه افراد با تجربه را از آنهایی که وانمود می کنند آگاه هستند تشخیص دهیم؟</blockquote>
+<p><strong>Classification:</strong> Misleading</p>
+
+<h3>accessiBe</h3>
+<blockquote>Man in black suit jacket holding magnifying glass</blockquote>
+<p><strong>Classification:</strong> Some contents</p>
+
+<h2>Benchmarking (Google Cloud Vision API)</h2>
+
+<h3>Labels</h3>
+<pre style="display: block; overflow-x: auto; overflow-y: hidden;">
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;labelAnnotations&quot;: [
+				{
+					&quot;description&quot;: &quot;Chin&quot;,
+					&quot;mid&quot;: &quot;/m/0f9swq&quot;,
+					&quot;score&quot;: 0.9664493,
+					&quot;topicality&quot;: 0.9664493
+				},
+				{
+					&quot;description&quot;: &quot;Tie&quot;,
+					&quot;mid&quot;: &quot;/m/01rkbr&quot;,
+					&quot;score&quot;: 0.92367536,
+					&quot;topicality&quot;: 0.92367536
+				},
+				{
+					&quot;description&quot;: &quot;Black&quot;,
+					&quot;mid&quot;: &quot;/m/019sc&quot;,
+					&quot;score&quot;: 0.8956447,
+					&quot;topicality&quot;: 0.8956447
+				},
+				{
+					&quot;description&quot;: &quot;Flash photography&quot;,
+					&quot;mid&quot;: &quot;/g/1tr17zw8&quot;,
+					&quot;score&quot;: 0.8801403,
+					&quot;topicality&quot;: 0.8801403
+				},
+				{
+					&quot;description&quot;: &quot;Coat&quot;,
+					&quot;mid&quot;: &quot;/m/01xygc&quot;,
+					&quot;score&quot;: 0.8791512,
+					&quot;topicality&quot;: 0.8791512
+				},
+				{
+					&quot;description&quot;: &quot;Standing&quot;,
+					&quot;mid&quot;: &quot;/m/02wzbmj&quot;,
+					&quot;score&quot;: 0.86421657,
+					&quot;topicality&quot;: 0.86421657
+				},
+				{
+					&quot;description&quot;: &quot;Style&quot;,
+					&quot;mid&quot;: &quot;/m/012yh1&quot;,
+					&quot;score&quot;: 0.83791506,
+					&quot;topicality&quot;: 0.83791506
+				},
+				{
+					&quot;description&quot;: &quot;Collar&quot;,
+					&quot;mid&quot;: &quot;/m/091410&quot;,
+					&quot;score&quot;: 0.8366378,
+					&quot;topicality&quot;: 0.8366378
+				},
+				{
+					&quot;description&quot;: &quot;Suit&quot;,
+					&quot;mid&quot;: &quot;/m/01xyhv&quot;,
+					&quot;score&quot;: 0.80741507,
+					&quot;topicality&quot;: 0.80741507
+				},
+				{
+					&quot;description&quot;: &quot;Blazer&quot;,
+					&quot;mid&quot;: &quot;/m/04xz_5&quot;,
+					&quot;score&quot;: 0.7827473,
+					&quot;topicality&quot;: 0.7827473
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Landmarks</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Logos</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Objects</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;localizedObjectAnnotations&quot;: [
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.50452816,
+								&quot;y&quot;: 0.37545344
+							},
+							{
+								&quot;x&quot;: 0.61844563,
+								&quot;y&quot;: 0.37545344
+							},
+							{
+								&quot;x&quot;: 0.61844563,
+								&quot;y&quot;: 0.51169425
+							},
+							{
+								&quot;x&quot;: 0.50452816,
+								&quot;y&quot;: 0.51169425
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/01rkbr&quot;,
+					&quot;name&quot;: &quot;Tie&quot;,
+					&quot;score&quot;: 0.92318326
+				},
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.2614635,
+								&quot;y&quot;: 0.116995424
+							},
+							{
+								&quot;x&quot;: 0.9323549,
+								&quot;y&quot;: 0.116995424
+							},
+							{
+								&quot;x&quot;: 0.9323549,
+								&quot;y&quot;: 0.97399855
+							},
+							{
+								&quot;x&quot;: 0.2614635,
+								&quot;y&quot;: 0.97399855
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/01g317&quot;,
+					&quot;name&quot;: &quot;Person&quot;,
+					&quot;score&quot;: 0.8429278
+				},
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.28746533,
+								&quot;y&quot;: 0.22969931
+							},
+							{
+								&quot;x&quot;: 0.9075081,
+								&quot;y&quot;: 0.22969931
+							},
+							{
+								&quot;x&quot;: 0.9075081,
+								&quot;y&quot;: 0.92945045
+							},
+							{
+								&quot;x&quot;: 0.28746533,
+								&quot;y&quot;: 0.92945045
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/01xyhv&quot;,
+					&quot;name&quot;: &quot;Suit&quot;,
+					&quot;score&quot;: 0.6410038
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Web</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;webDetection&quot;: {
+				&quot;bestGuessLabels&quot;: [
+					{
+						&quot;label&quot;: &quot;albert einstein&quot;,
+						&quot;languageCode&quot;: &quot;en&quot;
+					}
+				],
+				&quot;fullMatchingImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/7/78/Einstein_1921_by_F_Schmutzer_-_restoration.png&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://cdn.justluxe.com/articles/images/news/einstein_1947899.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;http://s2.glbimg.com/FaPM2fJ847iceqHXun4N1XJfWZw=/s.glbimg.com/og/rg/f/original/2016/05/18/einstein_1921_by_f_schmutzer_-_restoration.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://i.pinimg.com/originals/b0/93/2b/b0932b34feaeecc04eb16b0567b0d2bd.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.elnacional.cat/uploads/s1/46/54/74/einstein.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://evasion-online.com/imagearticle/2016/03/Einstein_1921_by_F_Schmutzer_-_restoration.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://static.wikia.nocookie.net/plantsvszombies/images/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg/revision/latest/scale-to-width-down/2523?cb=20200903022340&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://dic.academic.ru/pictures/wiki/files/69/Einstein_1921_by_F_Schmutzer.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://get.pxhere.com/photo/man-person-photography-male-portrait-sitting-blackboard-fashion-black-lady-photograph-famous-costume-black-and-white-photo-scientist-genius-1921-theory-of-relativity-albert-einstein-theoretician-physician-personality-of-the-twentieth-century-big-man-e-mc2-equation-general-relativity-quantum-mechanics-brownian-motion-1921-nobel-prize-in-physics-1925-medal-copley-max-planck-medal-in-1929-birth-death-1879-1955-human-positions-1322853.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://miro.medium.com/max/2625/1*sJMrNP6u7MBOsWsFZ7DSvQ.jpeg&quot;
+					}
+				],
+				&quot;pagesWithMatchingImages&quot;: [
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg&quot;
+							},
+							{
+								&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg/1200px-Einstein_1921_by_F_Schmutzer_-_restoration.jpg&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;&lt;b&gt;Albert Einstein&lt;/b&gt; - Wikipedia&quot;,
+						&quot;url&quot;: &quot;https://en.wikipedia.org/wiki/Albert_Einstein&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;List of scientific publications by &lt;b&gt;Albert Einstein&lt;/b&gt; - Wikipedia&quot;,
+						&quot;url&quot;: &quot;https://en.wikipedia.org/wiki/List_of_scientific_publications_by_Albert_Einstein&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://quotecatalog.imgix.net/assets/albert-einstein-fEYhBSbJKgvHvRoLHFoXXGj8/albert_einstein.jpg&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;30+ Best &lt;b&gt;Albert Einstein&lt;/b&gt; Quotes | Quote Catalog&quot;,
+						&quot;url&quot;: &quot;https://quotecatalog.com/communicator/albert-einstein&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;&lt;b&gt;Einstein&lt;/b&gt;–Szilárd letter - Wikipedia&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg/1200px-Einstein_1921_by_F_Schmutzer_-_restoration.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://en.wikipedia.org/wiki/Einstein%E2%80%93Szil%C3%A1rd_letter&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2011/05/albert_einstein_in_1921/9517669-4-eng-GB/Albert_Einstein_in_1921_pillars.jpg&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;ATV-4: &amp;lt;i&amp;gt;&lt;b&gt;Albert Einstein&lt;/b&gt;&amp;lt;/i&amp;gt; - European Space Agency&quot;,
+						&quot;url&quot;: &quot;https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ATV/ATV-4_i_Albert_Einstein_i&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://miro.medium.com/max/1838/1*sJMrNP6u7MBOsWsFZ7DSvQ.jpeg&quot;
+							},
+							{
+								&quot;url&quot;: &quot;https://miro.medium.com/max/1400/1*sJMrNP6u7MBOsWsFZ7DSvQ.jpeg&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;Who Owns The Rights To &lt;b&gt;Albert Einstein&amp;#39;s&lt;/b&gt; Face? - DataDrivenInvestor&quot;,
+						&quot;url&quot;: &quot;https://medium.datadriveninvestor.com/who-owns-the-right-to-albert-einsteins-face-c2031b7e41dc&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;How &lt;b&gt;Albert Einstein&lt;/b&gt; broke the Periodic Table - ZME Science&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://www.zmescience.com/mrf4u/statics/i/ps/cdn.zmescience.com/wp-content/uploads/2016/02/Einstein_1921_by_F_Schmutzer_-_restoration.jpg?width=1200&amp;enable=upscale&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.zmescience.com/research/periodic-table-broken-relativity/&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2011/05/albert_einstein_in_1921/9517669-4-eng-GB/Albert_Einstein_in_1921_pillars.jpg&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;ESA - ATV-4 to carry name &lt;b&gt;Albert Einstein&lt;/b&gt; - European Space Agency&quot;,
+						&quot;url&quot;: &quot;https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ATV/ATV-4_to_carry_name_Albert_Einstein&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://facts.net/wp-content/uploads/2021/01/Albert-Einstein-1921.jpg&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;50 &lt;b&gt;Albert Einstein&lt;/b&gt; Facts &amp;amp; Secrets You Never Knew | Facts.net&quot;,
+						&quot;url&quot;: &quot;https://facts.net/history/people/albert-einstein-facts/&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://images.newindianexpress.com/uploads/user/imagelibrary/2018/3/14/original/Einstein_1921_by_F_Schmutzer_-_restoration.jpg&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;&lt;b&gt;Albert Einstein&lt;/b&gt;: Remembering the genius who gave the &amp;#39;world&amp;#39;s most ...&quot;,
+						&quot;url&quot;: &quot;https://www.newindianexpress.com/galleries/nation/2018/mar/14/albert-einstein-remembering-the-genius-who-gave-the-worlds-most-famous-equation-on-his-139th-bir-101326.html&quot;
+					}
+				],
+				&quot;partialMatchingImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg?strip=all&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://1.bp.blogspot.com/-uFGTjZL1B90/Xd6i51JiNuI/AAAAAAAAFPQ/ziAq0elOr6oeLpKRR2-fih96NhSAIvm1gCLcBGAsYHQ/s1600/einstein.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=387507688329030&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2021%2F0622%2F6a83869ej00qv3me600a6c000xc017sm.jpg&amp;thumbnail=750x2147483647&amp;quality=85&amp;type=jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://img.mensxp.com/media/content/2021/May/3_60ab9e1f979aa.jpeg?w=500&amp;h=657&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://image.jimcdn.com/app/cms/image/transf/dimension=4000x3000:format=jpg/path/s2d88576f6744cf8c/image/ie34fbf6907327b70/version/1603759591/image.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://blog.kakaocdn.net/dn/sh62z/btqMcu99ZEI/MoqkxdAQRuundMjEcXwzt1/img.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/12486702/image/230d57b2e4dd76992a2f12083010d017&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=3985490924827344&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://rooziato.com/wp-content/uploads/2016/10/11-29.jpg&quot;
+					}
+				],
+				&quot;visuallySimilarImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://www.motosha.com/files/preview/960x1199/16688-albert-einstein-1921&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://i0.wp.com/cosmiclog.com/wp-content/uploads/2015/11/151123-einstein.jpg?ssl=1&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://l450v.alamy.com/450v/prre7m/albert-einstein-14-march-1879-18-april-1955-was-a-german-born-theoretical-physicist-who-developed-the-theory-of-relativity-prre7m.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://cdn.mos.cms.futurecdn.net/WNpzZAzbXwBUEADTAiq6Y8-320-80.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://play-lh.googleusercontent.com/cEPlheMqsb9E5OOVCpSu_i6ajtB_89vyibVtuJ2u25PX9uw9Y8MyStJJn1Dnv0hGwg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://render.fineartamerica.com/images/rendered/default/acrylic-print/7.5/10/hangingwire/break/images/artworkimages/medium/1/albert-einstein-lecturing-in-vienna-science-source.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://media.gettyimages.com/photos/portrait-du-physicien-allemand-albert-einstein-en-1922-picture-id1291357704?s=612x612&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://render.fineartamerica.com/images/rendered/medium/flat/blanket/images/artworkimages/medium/1/1-albert-einstein-janeb13.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.velikovsky.info/wp-content/uploads/albert-einstein-1200x900.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://theuijunkie.com/wp-content/uploads/2017/05/alberteinsteinmariecurieletterofrecommendation.jpg&quot;
+					}
+				],
+				&quot;webEntities&quot;: [
+					{
+						&quot;description&quot;: &quot;Albert Einstein&quot;,
+						&quot;entityId&quot;: &quot;/m/0jcx&quot;,
+						&quot;score&quot;: 14.673
+					},
+					{
+						&quot;description&quot;: &quot;Einstein–Szilárd letter&quot;,
+						&quot;entityId&quot;: &quot;/m/08j0jk&quot;,
+						&quot;score&quot;: 0.5664
+					},
+					{
+						&quot;description&quot;: &quot;Physicist&quot;,
+						&quot;entityId&quot;: &quot;/m/05snw&quot;,
+						&quot;score&quot;: 0.5544
+					},
+					{
+						&quot;description&quot;: &quot;Theoretical Physicist&quot;,
+						&quot;entityId&quot;: &quot;/m/02ktm6n&quot;,
+						&quot;score&quot;: 0.5404
+					},
+					{
+						&quot;description&quot;: &quot;Scientist&quot;,
+						&quot;entityId&quot;: &quot;/m/06q2q&quot;,
+						&quot;score&quot;: 0.5267
+					},
+					{
+						&quot;description&quot;: &quot;Special relativity&quot;,
+						&quot;entityId&quot;: &quot;/m/06pqq&quot;,
+						&quot;score&quot;: 0.525382
+					},
+					{
+						&quot;description&quot;: &quot;Theory of relativity&quot;,
+						&quot;entityId&quot;: &quot;/m/07cwn&quot;,
+						&quot;score&quot;: 0.48661363
+					},
+					{
+						&quot;description&quot;: &quot;Theoretical physics&quot;,
+						&quot;entityId&quot;: &quot;/m/01vx9r&quot;,
+						&quot;score&quot;: 0.4674
+					},
+					{
+						&quot;description&quot;: &quot;General relativity&quot;,
+						&quot;entityId&quot;: &quot;/m/03538&quot;,
+						&quot;score&quot;: 0.41539302
+					},
+					{
+						&quot;description&quot;: &quot;If I were not a physicist, I would probably be a musician. I often think in music. I live my daydreams in music. I see my life in terms of music.&quot;,
+						&quot;entityId&quot;: &quot;/g/11b7hjc4fl&quot;,
+						&quot;score&quot;: 0.3642
+					}
+				]
+			}
+		}
+	]
+}
+</pre>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="utf-8">
+  
+    <title>Automatic Alt Test Benchmarking - Doge meme</title>
+  
+  <link rel="stylesheet" href="https://mallonbacka.github.io/basic-styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    img{
+      border: 0.3rem solid #999;
+    }
+
+    pre{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      width: 90vw;
+      border: 0.3rem solid #999;
+      padding: 2rem; 
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    
+<a href="/auto-alt-text-results/">Back to list</a>
+<h1>Doge meme</h1>
+<h2>Image</h2>
+
+<picture><source type="image/png" srcset="/auto-alt-text-results/img/8f81f36d-500.png 500w"><img alt="Doge meme" loading="lazy" decoding="async" src="/auto-alt-text-results/img/8f81f36d-500.jpeg" width="500" height="371"></picture>
+
+<h2>Background Information</h2>
+<ul>
+	<li><strong>Image contains:</strong> Doge meme</li>
+	<li><strong>Reason chosen:</strong> A very early version of a widely known meme image, with original text</li>
+	<li><strong>License:</strong> Copyright (assumed) (Tumblr (via internet archive)) <a href="https://knowyourmeme.com/photos/581722-doge">Source page</a></li>
+</ul>
+<h2>Test Results</h2>
+<h3>Facebook Auto Alt Text</h3>
+<blockquote>May be an image of dog and text that says &#39;Wow so scare What you doing Concern -a-p-e Keep ur hands away from me&#39;</blockquote>
+<p><strong>Classification:</strong> Some contents</p>
+
+<h3>Twitter a11y</h3>
+<blockquote>From other pages with same image: 傲娇眼神可爱搞怪的柴犬动物写真图片</blockquote>
+<p><strong>Classification:</strong> Misleading</p>
+
+<h3>accessiBe</h3>
+<blockquote>Wow, you doing, Concern -a - p keep ur hands from me. Brown and white short coated dog</blockquote>
+<p><strong>Classification:</strong> Some contents</p>
+
+<h2>Benchmarking (Google Cloud Vision API)</h2>
+
+<h3>Labels</h3>
+<pre style="display: block; overflow-x: auto; overflow-y: hidden;">
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;labelAnnotations&quot;: [
+				{
+					&quot;description&quot;: &quot;Dog&quot;,
+					&quot;mid&quot;: &quot;/m/0bt9lr&quot;,
+					&quot;score&quot;: 0.9614244,
+					&quot;topicality&quot;: 0.9614244
+				},
+				{
+					&quot;description&quot;: &quot;Carnivore&quot;,
+					&quot;mid&quot;: &quot;/m/01lrl&quot;,
+					&quot;score&quot;: 0.8727485,
+					&quot;topicality&quot;: 0.8727485
+				},
+				{
+					&quot;description&quot;: &quot;Yellow&quot;,
+					&quot;mid&quot;: &quot;/m/088fh&quot;,
+					&quot;score&quot;: 0.8465337,
+					&quot;topicality&quot;: 0.8465337
+				},
+				{
+					&quot;description&quot;: &quot;Whiskers&quot;,
+					&quot;mid&quot;: &quot;/m/01l7qd&quot;,
+					&quot;score&quot;: 0.82166207,
+					&quot;topicality&quot;: 0.82166207
+				},
+				{
+					&quot;description&quot;: &quot;Fawn&quot;,
+					&quot;mid&quot;: &quot;/m/0276krm&quot;,
+					&quot;score&quot;: 0.815414,
+					&quot;topicality&quot;: 0.815414
+				},
+				{
+					&quot;description&quot;: &quot;Dog breed&quot;,
+					&quot;mid&quot;: &quot;/m/0kpmf&quot;,
+					&quot;score&quot;: 0.8025708,
+					&quot;topicality&quot;: 0.8025708
+				},
+				{
+					&quot;description&quot;: &quot;Companion dog&quot;,
+					&quot;mid&quot;: &quot;/m/03yl64&quot;,
+					&quot;score&quot;: 0.7835876,
+					&quot;topicality&quot;: 0.7835876
+				},
+				{
+					&quot;description&quot;: &quot;Snout&quot;,
+					&quot;mid&quot;: &quot;/m/05mqq3&quot;,
+					&quot;score&quot;: 0.7706973,
+					&quot;topicality&quot;: 0.7706973
+				},
+				{
+					&quot;description&quot;: &quot;Spitz&quot;,
+					&quot;mid&quot;: &quot;/m/037blm&quot;,
+					&quot;score&quot;: 0.74845374,
+					&quot;topicality&quot;: 0.74845374
+				},
+				{
+					&quot;description&quot;: &quot;Font&quot;,
+					&quot;mid&quot;: &quot;/m/03gq5hm&quot;,
+					&quot;score&quot;: 0.73259276,
+					&quot;topicality&quot;: 0.73259276
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Landmarks</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Logos</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Objects</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;localizedObjectAnnotations&quot;: [
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.2269622,
+								&quot;y&quot;: 0.02179416
+							},
+							{
+								&quot;x&quot;: 0.7144765,
+								&quot;y&quot;: 0.02179416
+							},
+							{
+								&quot;x&quot;: 0.7144765,
+								&quot;y&quot;: 0.9803378
+							},
+							{
+								&quot;x&quot;: 0.2269622,
+								&quot;y&quot;: 0.9803378
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/0bt9lr&quot;,
+					&quot;name&quot;: &quot;Dog&quot;,
+					&quot;score&quot;: 0.86120564
+				},
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.00061731535,
+								&quot;y&quot;: 0.0011163488
+							},
+							{
+								&quot;x&quot;: 0.13156702,
+								&quot;y&quot;: 0.0011163488
+							},
+							{
+								&quot;x&quot;: 0.13156702,
+								&quot;y&quot;: 0.19791214
+							},
+							{
+								&quot;x&quot;: 0.00061731535,
+								&quot;y&quot;: 0.19791214
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/03fp41&quot;,
+					&quot;name&quot;: &quot;Houseplant&quot;,
+					&quot;score&quot;: 0.6875842
+				},
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;y&quot;: 0.2967965
+							},
+							{
+								&quot;x&quot;: 0.32129696,
+								&quot;y&quot;: 0.2967965
+							},
+							{
+								&quot;x&quot;: 0.32129696,
+								&quot;y&quot;: 0.80565375
+							},
+							{
+								&quot;y&quot;: 0.80565375
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/034c16&quot;,
+					&quot;name&quot;: &quot;Pillow&quot;,
+					&quot;score&quot;: 0.6605127
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Web</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;webDetection&quot;: {
+				&quot;bestGuessLabels&quot;: [
+					{
+						&quot;label&quot;: &quot;doge meme&quot;,
+						&quot;languageCode&quot;: &quot;en&quot;
+					}
+				],
+				&quot;fullMatchingImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://id-static.z-dn.net/files/d8b/a1080a01f6647b7fe345719f6da0af99.png&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://cdn.unitycms.io/image/ocroped/2001,2000,1000,1000,0,0/ODkk42OB_ws/1kRTMTUOagFB8XrunIDoxG.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://ac.namu.la/20210702/ffa44761d60ef66d38864a8ae03ef854ad71828df4329d2244716966f4f5a01b.jpeg?type=orig&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://ac.namu.la/20210703/f7f1b219d6296ed1ce60f9263e57cefcccda4b188e099031377cdfe0c1f6603c.jpg?type=orig&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.dogdrip.net/dvs/d/21/07/29/a15e5d459e1c9e79c26767e2a98e1c22.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://image.bada.io/files//upload/2021/07/29/4793257_61031e24bb541.webp&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.senddopameme.com/front/doge.png&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://i.imgur.com/fRQn0mq.png&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://gumlet.assettype.com/thebridgechronicle%2F2021-05%2Fd9ae88f2-ee57-45af-8fb4-b6b61f66e218%2Fimgur.png?format=auto&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1519246688348519&quot;
+					}
+				],
+				&quot;pagesWithMatchingImages&quot;: [
+					{
+						&quot;pageTitle&quot;: &quot;&lt;b&gt;Doge&lt;/b&gt; (&lt;b&gt;meme&lt;/b&gt;) - Wikipedia&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Original_Doge_meme.jpg/300px-Original_Doge_meme.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://en.wikipedia.org/wiki/Doge_(meme)&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;Yes, the Dogecoin Dog Is the Same Dog From the &lt;b&gt;Doge Memes&lt;/b&gt;&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://media.distractify.com/brand-img/JU8PV-_Jb/0x0/original_doge_meme-1618586552558.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.distractify.com/p/dogecoin-dog-in-real-life&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;Introducing &lt;b&gt;Doge&lt;/b&gt;, the internet &lt;b&gt;meme&lt;/b&gt; which has everybody talking&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://img2.thejournal.ie/inline/1220930/original/?width=500&amp;version=1220930&quot;
+							},
+							{
+								&quot;url&quot;: &quot;https://img2.thejournal.ie/inline/1220930/original/?width=580&amp;version=1220930&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.dailyedge.ie/doge-explainer-1220885-Dec2013/&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;&lt;b&gt;Doge&lt;/b&gt; (&lt;b&gt;meme&lt;/b&gt;) - Wikiwand&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Original_Doge_meme.jpg/300px-Original_Doge_meme.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.wikiwand.com/en/Doge_(meme)&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;Top 10 Most Iconic &lt;b&gt;Doge Memes&lt;/b&gt; - Exodus Wallet&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://lh5.googleusercontent.com/SRY5TNqavcO3RA0CQrtJmelkB4CbTBdbMi9QMdFv7ko0fKawcwiTRSmwrEe6pvIF3jhh6mY-5v3BBN5FTmD1KkXM-1bAeBjad7yXa8kdQLVzksCbcuqhSKZoN-512OtdZ4CqAsCb&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.exodus.com/blog/top-10-iconic-doge-memes/&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;What is &lt;b&gt;Dogecoin&lt;/b&gt; and why did Reddit make it popular again in 2021?&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Original_Doge_meme.jpg/300px-Original_Doge_meme.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://thebrag.com/dogecoin-reddit-explainer/&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;Doggolingo: A Guide to the Internet&amp;#39;s Favorite Language&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://i0.wp.com/outwardhound.com/furtropolis/wp-content/uploads/2020/03/doge.jpg?resize=578%2C429&amp;ssl=1&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://outwardhound.com/furtropolis/awww/doggolingo-a-guide-to-the-internets-favorite-dog-language&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;Why is &lt;b&gt;doge&lt;/b&gt; dog so popular? - Quora&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://qph.fs.quoracdn.net/main-qimg-0f1f6925badaaa9d591882fa35653200.webp&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.quora.com/Why-is-doge-dog-so-popular&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;The &lt;b&gt;Doge&lt;/b&gt; NFT Just Sold For A Heckin&amp;#39; 4 Million Dollars, Making It ...&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://imgix.pedestrian.tv/content/uploads/2021/06/13/300px-Original_Doge_meme.jpg?auto=format&amp;fit=fill&amp;q=65&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.pedestrian.tv/online/doge-nft-auction/&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;The &lt;b&gt;Doge&lt;/b&gt; NFT Just Sold For A Heckin&amp;#39; 4 Million Dollars, Making It ...&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://imgix.pedestrian.tv/content/uploads/2021/06/13/300px-Original_Doge_meme.jpg?auto=format&amp;fit=fill&amp;q=65&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.pedestrian.tv/news/doge-nft-auction/&quot;
+					}
+				],
+				&quot;partialMatchingImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://www.testanonpertinente.net/wp-content/uploads/2014/02/dogedoge.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://i2.wp.com/comicsandmemes.com/wp-content/uploads/2013/12/shebe-doge-wow-original-meme.jpg?fit=500%2C371&amp;ssl=1&amp;w=640&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://img2.thejournal.ie/inline/1220930/original/?width=580&amp;version=1220930&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://i.pinimg.com/736x/d6/82/ff/d682ff008d32434827b125f4a706915f--doge-meme-best-memes.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://pkimgcdn.peekyou.com/d6e34414413ae3d114ba8e2b976dbd9c.jpeg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://ewdvtw8.imgix.net/news/wp-content/uploads/2013/12/meme_doge_mem.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=441&amp;ixlib=php-3.3.1&amp;q=75&amp;w=595&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://i.pinimg.com/474x/c1/45/0c/c1450c91e8ab4d30fd7c2e8e70a67e8b--doge-meme-best-memes.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.thestreet.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_620/MTgwNzgxNzEyNTc2MzU3NzM2/original_doge_meme.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://abatchel.files.wordpress.com/2013/11/7bc.jpg?w=640&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://weneedfun.com/wp-content/uploads/2016/08/Doge-Memes-1.jpg&quot;
+					}
+				],
+				&quot;visuallySimilarImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://influence.digital/wp-content/uploads/2021/06/Original_Doge_meme-1.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://i.kym-cdn.com/editorials/icons/mobile/000/002/806/Doge_NFT_Banner.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.lefthudson.com/wp-content/uploads/2019/11/doge-1080x1080-beautiful-doge-meme-wallpaper-wallpapersafari-for-you-of-doge-1080x1080.png&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://miro.medium.com/max/640/0*aTHbX3BBwNGhuIaC&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://cdn.vox-cdn.com/thumbor/TBO5NI_b8hdRFECh7Ciu7ulH1LI=/44x0:1086x695/1400x1400/filters:focal(44x0:1086x695):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/30654517/dogememe.0.png&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://i.imgflip.com/51b6s5.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://pics.me.me/thumb_create-meme-fffuuu-fffuuu-doge-original-doge-meme-51354383.png&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://static.ffx.io/images/$width_375%2C$height_211/t_crop_fill/q_86%2Cf_auto/851baebb4cfe208dbcf2dec32e233e42fdd33da1&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://i1.wp.com/everythingisviral.com/wp-content/uploads/2020/11/doge-dog-1024x731.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://images.news18.com/ibnlive/uploads/2021/06/1623900306_untitled-design-2021-06-17t085747.057.png?im=FitAndFill,width=1200,height=1200&quot;
+					}
+				],
+				&quot;webEntities&quot;: [
+					{
+						&quot;description&quot;: &quot;Doge&quot;,
+						&quot;entityId&quot;: &quot;/m/0zbwt72&quot;,
+						&quot;score&quot;: 0.7344
+					},
+					{
+						&quot;description&quot;: &quot;Meme&quot;,
+						&quot;entityId&quot;: &quot;/m/04wpw&quot;,
+						&quot;score&quot;: 0.7112
+					},
+					{
+						&quot;description&quot;: &quot;Internet meme&quot;,
+						&quot;entityId&quot;: &quot;/m/025rxrz&quot;,
+						&quot;score&quot;: 0.7104
+					},
+					{
+						&quot;description&quot;: &quot;Dogecoin&quot;,
+						&quot;entityId&quot;: &quot;/m/0zmxk9t&quot;,
+						&quot;score&quot;: 0.7031
+					},
+					{
+						&quot;description&quot;: &quot;Shiba Inu&quot;,
+						&quot;entityId&quot;: &quot;/m/077hh&quot;,
+						&quot;score&quot;: 0.6278085
+					},
+					{
+						&quot;description&quot;: &quot;Image&quot;,
+						&quot;entityId&quot;: &quot;/m/0jg24&quot;,
+						&quot;score&quot;: 0.5332
+					},
+					{
+						&quot;description&quot;: &quot;Know Your Meme&quot;,
+						&quot;entityId&quot;: &quot;/m/09g6pyy&quot;,
+						&quot;score&quot;: 0.5184
+					},
+					{
+						&quot;description&quot;: &quot;DoggoLingo&quot;,
+						&quot;entityId&quot;: &quot;/g/11fj32frtq&quot;,
+						&quot;score&quot;: 0.5036
+					},
+					{
+						&quot;description&quot;: &quot;Cryptocurrency&quot;,
+						&quot;entityId&quot;: &quot;/m/0vpj4_b&quot;,
+						&quot;score&quot;: 0.496
+					},
+					{
+						&quot;description&quot;: &quot;Non-fungible token&quot;,
+						&quot;entityId&quot;: &quot;/g/11g0g4sbp3&quot;,
+						&quot;score&quot;: 0.4711
+					}
+				]
+			}
+		}
+	]
+}
+</pre>
+  </main>
+</body>
+
+</html>

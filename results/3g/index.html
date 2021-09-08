@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="utf-8">
+  
+    <title>Automatic Alt Test Benchmarking - Simple floorplan</title>
+  
+  <link rel="stylesheet" href="https://mallonbacka.github.io/basic-styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    img{
+      border: 0.3rem solid #999;
+    }
+
+    pre{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      width: 90vw;
+      border: 0.3rem solid #999;
+      padding: 2rem; 
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    
+<a href="/auto-alt-text-results/">Back to list</a>
+<h1>Simple floorplan</h1>
+<h2>Image</h2>
+
+<picture><source type="image/png" srcset="/auto-alt-text-results/img/f7c9902b-360.png 360w"><img alt="Simple floorplan" loading="lazy" decoding="async" src="/auto-alt-text-results/img/f7c9902b-360.jpeg" width="360" height="495"></picture>
+
+<h2>Background Information</h2>
+<ul>
+	<li><strong>Image contains:</strong> Simple floorplan</li>
+	<li><strong>Reason chosen:</strong> As commonly seen in rental advertisements</li>
+	<li><strong>License:</strong> Copyright (assumed) (Tori.fi (classified ad website in Finnish)) <a href="https://www.tori.fi/uusimaa/2h_k__Soukankaari_13_E__Soukka__Espoo_88117359.htm?ca=18&amp;w=118">Source page</a></li>
+</ul>
+<h2>Test Results</h2>
+<h3>Facebook Auto Alt Text</h3>
+<blockquote>May be an image of floor plan and text that says &#39;ΜΗ KPH κ WCCl WC E oH 2h+k, 59 m Pohjakuva suuntaa antava, ei mittakaavassa.&#39;</blockquote>
+<p><strong>Classification:</strong> Acceptable alternative</p>
+
+	<p><strong>Notes:</strong> The concept (floor plan) is correctly identified</p>
+
+<h3>Twitter a11y</h3>
+<blockquote>From automatic captioning: Diagram, engineering drawing</blockquote>
+<p><strong>Classification:</strong> Missing</p>
+
+<h3>accessiBe</h3>
+<blockquote>KPH, MH, к, WC, E, OH, 2h + k, 59 m, Pohjakuva suuntaa antava, ei mittakaavassa</blockquote>
+<p><strong>Classification:</strong> Some contents</p>
+
+<h2>Benchmarking (Google Cloud Vision API)</h2>
+
+<h3>Labels</h3>
+<pre style="display: block; overflow-x: auto; overflow-y: hidden;">
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;labelAnnotations&quot;: [
+				{
+					&quot;description&quot;: &quot;Line&quot;,
+					&quot;mid&quot;: &quot;/m/03scnj&quot;,
+					&quot;score&quot;: 0.81812,
+					&quot;topicality&quot;: 0.81812
+				},
+				{
+					&quot;description&quot;: &quot;Parallel&quot;,
+					&quot;mid&quot;: &quot;/m/030zfn&quot;,
+					&quot;score&quot;: 0.7795315,
+					&quot;topicality&quot;: 0.7795315
+				},
+				{
+					&quot;description&quot;: &quot;Font&quot;,
+					&quot;mid&quot;: &quot;/m/03gq5hm&quot;,
+					&quot;score&quot;: 0.7580227,
+					&quot;topicality&quot;: 0.7580227
+				},
+				{
+					&quot;description&quot;: &quot;Rectangle&quot;,
+					&quot;mid&quot;: &quot;/m/0j62f&quot;,
+					&quot;score&quot;: 0.7579463,
+					&quot;topicality&quot;: 0.7579463
+				},
+				{
+					&quot;description&quot;: &quot;Schematic&quot;,
+					&quot;mid&quot;: &quot;/m/0bg0t&quot;,
+					&quot;score&quot;: 0.6493552,
+					&quot;topicality&quot;: 0.6493552
+				},
+				{
+					&quot;description&quot;: &quot;Engineering&quot;,
+					&quot;mid&quot;: &quot;/m/02ky346&quot;,
+					&quot;score&quot;: 0.6483333,
+					&quot;topicality&quot;: 0.6483333
+				},
+				{
+					&quot;description&quot;: &quot;Drawing&quot;,
+					&quot;mid&quot;: &quot;/m/02csf&quot;,
+					&quot;score&quot;: 0.64080286,
+					&quot;topicality&quot;: 0.64080286
+				},
+				{
+					&quot;description&quot;: &quot;Pattern&quot;,
+					&quot;mid&quot;: &quot;/m/0hwky&quot;,
+					&quot;score&quot;: 0.6340175,
+					&quot;topicality&quot;: 0.6340175
+				},
+				{
+					&quot;description&quot;: &quot;Slope&quot;,
+					&quot;mid&quot;: &quot;/m/078hm&quot;,
+					&quot;score&quot;: 0.59099394,
+					&quot;topicality&quot;: 0.59099394
+				},
+				{
+					&quot;description&quot;: &quot;Plan&quot;,
+					&quot;mid&quot;: &quot;/m/018jrr&quot;,
+					&quot;score&quot;: 0.58775765,
+					&quot;topicality&quot;: 0.58775765
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Landmarks</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Logos</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;logoAnnotations&quot;: [
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;vertices&quot;: [
+							{
+								&quot;x&quot;: 323,
+								&quot;y&quot;: 7
+							},
+							{
+								&quot;x&quot;: 354,
+								&quot;y&quot;: 7
+							},
+							{
+								&quot;x&quot;: 354,
+								&quot;y&quot;: 35
+							},
+							{
+								&quot;x&quot;: 323,
+								&quot;y&quot;: 35
+							}
+						]
+					},
+					&quot;description&quot;: &quot;Lotus Cars&quot;,
+					&quot;mid&quot;: &quot;/m/016qk5&quot;,
+					&quot;score&quot;: 0.56912994
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Objects</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Web</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;webDetection&quot;: {
+				&quot;bestGuessLabels&quot;: [
+					{
+						&quot;label&quot;: &quot;floor plan&quot;
+					}
+				],
+				&quot;fullMatchingImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://res.cloudinary.com/sato/image/upload/c_scale,w_1920,f_auto/prod/vuokra-asunto-Espoo-Soukka-11vUVrU3FJWfraT4tr2SYkH4GCVrHPTVJFLLup5CNkiV&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://images.tori.fi/api/v1/imagestori/images/100059240011.jpg?rule=mview&quot;
+					}
+				],
+				&quot;pagesWithMatchingImages&quot;: [
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://res.cloudinary.com/sato/image/upload/c_scale,w_1920,f_auto/prod/vuokra-asunto-Espoo-Soukka-11vUVrU3FJWfraT4tr2SYkH4GCVrHPTVJFLLup5CNkiV&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;Soukankaari 13, Espoo - rental apartment - SATO&quot;,
+						&quot;url&quot;: &quot;https://www.sato.fi/en/rental-apartments/espoo/soukka/soukankaari+13/725/apartment/8350&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;Espoo Soukka, 2h+k, 2 rooms, block of flats, 919, €/m, 1148791&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://d2ue5ppt0wsjaa.cloudfront.net/640x427,fit/vuokraovimedia/images/153/545/572/480/153545572480328_original.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.vuokraovi.com/vuokra-asunto/espoo/soukka/kerrostalo/1148791?locale=en&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;2h+k , block of flats, 919 €/m, 62 m² - Vuokraovi.com&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://d2ue5ppt0wsjaa.cloudfront.net/640x427,fit/vuokraovimedia/images/153/545/572/480/153545572480328_original.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.vuokraovi.com/vuokra-asunto/espoo/soukka/kerrostalo/1148791?locale=en&amp;entrypoint=fromsearch&amp;rentalindex=4&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://res.cloudinary.com/sato/image/upload/c_scale,w_1920,f_auto/prod/vuokra-asunto-Espoo-Soukka-11vUVrU3FJWfraT4tr2SYkH4GCVrHPTVJFLLup5CNkiV&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;We value your privacy - Soukankaari 13, Espoo - vuokra-asunto&quot;,
+						&quot;url&quot;: &quot;https://www.sato.fi/fi/vuokra-asunnot/espoo/soukka/soukankaari+13/725/asunto/8358&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://res.cloudinary.com/sato/image/upload/c_scale,w_1920,f_auto/prod/vuokra-asunto-Espoo-Soukka-11vUVrU3FJWfraT4tr2SYkH4GCVrHPTVJFLLup5CNkiV&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;We value your privacy - Soukankaari 13, Espoo - vuokra-asunto&quot;,
+						&quot;url&quot;: &quot;https://www.sato.fi/fi/vuokra-asunnot/espoo/soukka/soukankaari+13/725/asunto/8354&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;Soukankaari 11, Espoo - vuokra-asunto - SATO&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://res.cloudinary.com/sato/image/upload/c_scale,w_300,f_auto/prod/vuokra-asunto-Espoo-Soukka-bNDfXRUJWIzpcQJcOLCMah8zfzzfoNSbvCxRU8MslWFnkC5j&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.sato.fi/fi/vuokra-asunnot/espoo/soukka/soukankaari+11/725/asunto/8238&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://res.cloudinary.com/sato/image/upload/c_scale,w_1920,f_auto/prod/vuokra-asunto-Espoo-Soukka-11vUVrU3FJWfraT4tr2SYkH4GCVrHPTVJFLLup5CNkiV&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;Soukankaari 13, Espoo - vuokra-asunto - SATO&quot;,
+						&quot;url&quot;: &quot;https://www.sato.fi/fi/vuokra-asunnot/espoo/soukka/soukankaari+13/725/asunto/8346&quot;
+					},
+					{
+						&quot;fullMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://res.cloudinary.com/sato/image/upload/c_scale,w_1920,f_auto/prod/vuokra-asunto-Espoo-Soukka-11vUVrU3FJWfraT4tr2SYkH4GCVrHPTVJFLLup5CNkiV&quot;
+							}
+						],
+						&quot;pageTitle&quot;: &quot;We value your privacy - Soukankaari 13, Espoo - vuokra-asunto&quot;,
+						&quot;url&quot;: &quot;https://www.sato.fi/fi/vuokra-asunnot/espoo/soukka/soukankaari+13/725/asunto/8350&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;Vuokrataan kerrostalo Kaksio - Espoo Soukka Soukankaari 11&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://d2ue5ppt0wsjaa.cloudfront.net/640x427,fit/vuokraovimedia/images/153/545/572/480/153545572480328_original.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.vuokraovi.com/main/showrental.action?id=1152087&quot;
+					},
+					{
+						&quot;pageTitle&quot;: &quot;Vuokrataan kerrostalo Kaksio - Espoo Soukka Soukankaari 11&quot;,
+						&quot;partialMatchingImages&quot;: [
+							{
+								&quot;url&quot;: &quot;https://d2ue5ppt0wsjaa.cloudfront.net/640x427,fit/vuokraovimedia/images/153/545/572/480/153545572480328_original.jpg&quot;
+							}
+						],
+						&quot;url&quot;: &quot;https://www.vuokraovi.com/vuokra-asunto/espoo/soukka/kerrostalo/1148791?entryPoint=fromSearch&amp;rentalIndex=4&quot;
+					}
+				],
+				&quot;partialMatchingImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://d2ue5ppt0wsjaa.cloudfront.net/640x427,fit/vuokraovimedia/images/153/545/572/480/153545572480328_original.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://res.cloudinary.com/sato/image/upload/c_scale,w_300,f_auto/prod/vuokra-asunto-Espoo-Soukka-bNDfXRUJWIzpcQJcOLCMah8zfzzfoNSbvCxRU8MslWFnkC5j&quot;
+					}
+				],
+				&quot;visuallySimilarImages&quot;: [
+					{
+						&quot;url&quot;: &quot;http://www.capitalgreensdelhi.com/assets/images/floor-plan/2bhk-1200-sqft.webp&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://thetowersonparklane.com//wp-content/uploads/2015/01/plan-i.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;http://i.stack.imgur.com/qDhl7.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.novushomes.com.au/sites/www.novushomes.com.au/files/house_designs/Mode/floorplan/Mode%20-%20Floor%20Plan%20-%20Upper.PNG&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://4fs0893rxsil3r8n0j24afu1-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/Floor-Plan-Fine-Tuning1.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.cadpro.com/wp-content/uploads/2013/09/floor-plan-design.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://farm5.static.flickr.com/4077/4781846106_a46c4afe6a_b.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.pinoyeplans.com/wp-content/uploads/2019/04/SHD-2015016_1st-Floor.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://i.pinimg.com/originals/89/be/9a/89be9aaf6b921d80510dd2ecbf8fb561.gif&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.researchgate.net/profile/Waqas-Mahar/publication/330535135/figure/fig4/AS:717812645515274@1548151279524/Ground-Floor-Plan-of-House-VI.ppm&quot;
+					}
+				],
+				&quot;webEntities&quot;: [
+					{
+						&quot;description&quot;: &quot;Apartment&quot;,
+						&quot;entityId&quot;: &quot;/m/01nblt&quot;,
+						&quot;score&quot;: 0.6975
+					},
+					{
+						&quot;description&quot;: &quot;Dwelling&quot;,
+						&quot;entityId&quot;: &quot;/m/025tg6m&quot;,
+						&quot;score&quot;: 0.6435
+					},
+					{
+						&quot;description&quot;: &quot;Apartment building&quot;,
+						&quot;entityId&quot;: &quot;/g/12fgsd9b7&quot;,
+						&quot;score&quot;: 0.6365
+					},
+					{
+						&quot;description&quot;: &quot;Soukankaari&quot;,
+						&quot;entityId&quot;: &quot;/g/1tfvrlrl&quot;,
+						&quot;score&quot;: 0.62843007
+					},
+					{
+						&quot;description&quot;: &quot;Rental apartment&quot;,
+						&quot;entityId&quot;: &quot;/g/12135ylp&quot;,
+						&quot;score&quot;: 0.5748
+					},
+					{
+						&quot;description&quot;: &quot;Floor plan&quot;,
+						&quot;entityId&quot;: &quot;/m/02sp3v&quot;,
+						&quot;score&quot;: 0.5279452
+					},
+					{
+						&quot;description&quot;: &quot;Rent&quot;,
+						&quot;entityId&quot;: &quot;/m/01y857&quot;,
+						&quot;score&quot;: 0.5242
+					},
+					{
+						&quot;description&quot;: &quot;SATO Oyj&quot;,
+						&quot;entityId&quot;: &quot;/g/1216x0x4&quot;,
+						&quot;score&quot;: 0.4545
+					},
+					{
+						&quot;description&quot;: &quot;Home&quot;,
+						&quot;entityId&quot;: &quot;/m/01l0mw&quot;,
+						&quot;score&quot;: 0.4272
+					},
+					{
+						&quot;description&quot;: &quot;Room&quot;,
+						&quot;entityId&quot;: &quot;/m/06ht1&quot;,
+						&quot;score&quot;: 0.4271
+					}
+				]
+			}
+		}
+	]
+}
+</pre>
+  </main>
+</body>
+
+</html>

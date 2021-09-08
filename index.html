@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="utf-8">
+  
+    <title>Automatic alt Text Banchmarking</title>
+  
+  <link rel="stylesheet" href="https://mallonbacka.github.io/basic-styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    img{
+      border: 0.3rem solid #999;
+    }
+
+    pre{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      width: 90vw;
+      border: 0.3rem solid #999;
+      padding: 2rem; 
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Automatic <code>alt</code> text benchmarking </h1>
+<h2>What is this?</h2>
+<picture><source type="image/png" srcset="/auto-alt-text-results/img/5907e2c6-600.png 600w"><img alt="Futurama Fry meme with the text: not sure if automatic alt text tools will recognise common images... or just the text" loading="lazy" decoding="async" src="/auto-alt-text-results/img/5907e2c6-600.jpeg" width="600" height="450"></picture>
+<p class="lead">
+    In summer 2021, I (<a href="https://mallonbacka.github.io/">@Mallonbacka</a>) wrote a paper examining the performance of current 
+    automated approaches to generating <code>alt</code> attributes for images. As part 
+    of this I identified three tools which take different approaches, and tested them 
+    side-by-side on the same set of images to see how they performed. 
+</p>
+<p>
+    Here you'll find 
+    the images, generated <code>alt</code> attributes, summaries and the output of the 
+    Google Cloud Vision API, which is included as a benchmark for current general 
+    purpose image recognition tools.
+</p>
+<h2>Full Results</h2>
+<table style="width: 100%;">
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Image Contains</th>
+            <th>Facebook AAT Result</th>
+            <th>Twitter a11y Result</th>
+            <th>accessiBe Result</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            <tr>
+                <td>Animated GIF</td>
+                <td><a href="results/5d">Chicken riding a tortoise</a></td>
+                <td>Missing </td>
+                <td>Missing </td>
+                <td>Misleading </td>
+            </tr>
+        
+            <tr>
+                <td>Animated GIF</td>
+                <td><a href="results/5c">Everyone mute yourself</a></td>
+                <td>Missing </td>
+                <td>Missing </td>
+                <td>Missing </td>
+            </tr>
+        
+            <tr>
+                <td>Animated GIF</td>
+                <td><a href="results/5b">Minion Good Morning</a></td>
+                <td>Missing </td>
+                <td>Missing </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Animated GIF</td>
+                <td><a href="results/5e">Prince Phillip (Matt Smith) getting dressed (from The Crown)</a></td>
+                <td>Missing </td>
+                <td>Missing </td>
+                <td>Missing </td>
+            </tr>
+        
+            <tr>
+                <td>Animated GIF</td>
+                <td><a href="results/5a">Runners</a></td>
+                <td>Missing </td>
+                <td>Missing </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Button</td>
+                <td><a href="results/4m">11ty Documentation Button</a></td>
+                <td>Some contents </td>
+                <td>Missing </td>
+                <td>Missing </td>
+            </tr>
+        
+            <tr>
+                <td>Button</td>
+                <td><a href="results/1a">Add to cart button</a></td>
+                <td>Some contents </td>
+                <td>Missing </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Button</td>
+                <td><a href="results/4j">Call button</a></td>
+                <td>Missing </td>
+                <td>Missing </td>
+                <td>Missing </td>
+            </tr>
+        
+            <tr>
+                <td>Button</td>
+                <td><a href="results/4k">HTML-style text button</a></td>
+                <td>Some contents </td>
+                <td>Missing </td>
+                <td>Missing </td>
+            </tr>
+        
+            <tr>
+                <td>Button</td>
+                <td><a href="results/4l">Text button with icon</a></td>
+                <td>Some contents </td>
+                <td>Missing </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Diagram</td>
+                <td><a href="results/3e">Accessibility tree diagram</a></td>
+                <td>Some contents </td>
+                <td>Acceptable alternative </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Diagram</td>
+                <td><a href="results/3f">Basketball court</a></td>
+                <td>Missing </td>
+                <td>Acceptable alternative </td>
+                <td>Missing </td>
+            </tr>
+        
+            <tr>
+                <td>Diagram</td>
+                <td><a href="results/1m">Diagram demonstrating pythagoras&#39; theorem</a></td>
+                <td>Missing </td>
+                <td>Missing </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Diagram</td>
+                <td><a href="results/3h">Scatter plot</a></td>
+                <td>Some contents </td>
+                <td>Missing </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Diagram</td>
+                <td><a href="results/3g">Simple floorplan</a></td>
+                <td>Acceptable alternative </td>
+                <td>Missing </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Icon</td>
+                <td><a href="results/4h">Ambulance icon</a></td>
+                <td>Missing </td>
+                <td>Misleading </td>
+                <td>Missing </td>
+            </tr>
+        
+            <tr>
+                <td>Icon</td>
+                <td><a href="results/1d">Female icon</a></td>
+                <td>Missing </td>
+                <td>Missing </td>
+                <td>Missing </td>
+            </tr>
+        
+            <tr>
+                <td>Icon</td>
+                <td><a href="results/1n">Magnifying class icon</a></td>
+                <td>Missing </td>
+                <td>Missing </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Icon</td>
+                <td><a href="results/4g">Save icon</a></td>
+                <td>Missing </td>
+                <td>Missing </td>
+                <td>Missing </td>
+            </tr>
+        
+            <tr>
+                <td>Icon</td>
+                <td><a href="results/4i">Wi-fi icon</a></td>
+                <td>Missing </td>
+                <td>Missing </td>
+                <td>Missing </td>
+            </tr>
+        
+            <tr>
+                <td>ID document</td>
+                <td><a href="results/3l">British passport cover</a></td>
+                <td>Misleading </td>
+                <td>Misleading </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>ID document</td>
+                <td><a href="results/4d">Finnish Police ID Badge</a></td>
+                <td>Misleading </td>
+                <td>Missing </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>ID document</td>
+                <td><a href="results/1k">Photograph of a specimen identity card</a></td>
+                <td>Misleading </td>
+                <td>Misleading </td>
+                <td>Misleading </td>
+            </tr>
+        
+            <tr>
+                <td>ID document</td>
+                <td><a href="results/4f">University of Lousville Student Card</a></td>
+                <td>Misleading </td>
+                <td>Acceptable alternative </td>
+                <td>Misleading </td>
+            </tr>
+        
+            <tr>
+                <td>ID document</td>
+                <td><a href="results/4e">US Passport Details Page</a></td>
+                <td>Misleading </td>
+                <td>Misleading </td>
+                <td>Misleading </td>
+            </tr>
+        
+            <tr>
+                <td>Infographic</td>
+                <td><a href="results/1l">Infographic of safety recommendations in Finnish</a></td>
+                <td>Some contents </td>
+                <td>Missing </td>
+                <td>Missing </td>
+            </tr>
+        
+            <tr>
+                <td>Infographic</td>
+                <td><a href="results/4a">Salesforce How to Sell Better Infographic</a></td>
+                <td>Misleading </td>
+                <td>Misleading </td>
+                <td>Misleading </td>
+            </tr>
+        
+            <tr>
+                <td>Infographic</td>
+                <td><a href="results/4b">The Carbon Budget Infographic</a></td>
+                <td>Misleading </td>
+                <td>Missing </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Infographic</td>
+                <td><a href="results/4c">The Evolution of the Blogger timeline</a></td>
+                <td>Misleading </td>
+                <td>Misleading </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Infographic</td>
+                <td><a href="results/3k">The Incomes Register Infographic</a></td>
+                <td>Some contents </td>
+                <td>Missing </td>
+                <td>Missing </td>
+            </tr>
+        
+            <tr>
+                <td>Logo</td>
+                <td><a href="results/1g">Apple inc. corporate logo</a></td>
+                <td>Missing </td>
+                <td>Missing </td>
+                <td>Missing </td>
+            </tr>
+        
+            <tr>
+                <td>Logo</td>
+                <td><a href="results/3i">Finnish Immigration Service</a></td>
+                <td>Acceptable alternative </td>
+                <td>Missing </td>
+                <td>Acceptable alternative </td>
+            </tr>
+        
+            <tr>
+                <td>Logo</td>
+                <td><a href="results/1j">Microsoft corporate logo</a></td>
+                <td>Acceptable alternative </td>
+                <td>Acceptable alternative </td>
+                <td>Acceptable alternative </td>
+            </tr>
+        
+            <tr>
+                <td>Logo</td>
+                <td><a href="results/1h">Nike logo</a></td>
+                <td>Missing </td>
+                <td>Missing </td>
+                <td>Missing </td>
+            </tr>
+        
+            <tr>
+                <td>Logo</td>
+                <td><a href="results/3j">Olympic rings</a></td>
+                <td>Missing </td>
+                <td>Misleading </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Meme</td>
+                <td><a href="results/3d">Distracted boyfriend meme</a></td>
+                <td>Some contents </td>
+                <td>Acceptable alternative </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Meme</td>
+                <td><a href="results/1c">Doge meme</a></td>
+                <td>Some contents </td>
+                <td>Misleading </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Meme</td>
+                <td><a href="results/1i">Futurama Fry meme</a></td>
+                <td>Some contents </td>
+                <td>Missing </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Meme</td>
+                <td><a href="results/3c">Whomst &quot;galaxy brain&quot; meme</a></td>
+                <td>Some contents </td>
+                <td>Some contents </td>
+                <td>Missing </td>
+            </tr>
+        
+            <tr>
+                <td>Meme</td>
+                <td><a href="results/2b">XKCD comic strip</a></td>
+                <td>Acceptable alternative </td>
+                <td>Missing </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Personal photos</td>
+                <td><a href="results/2a">A gravestone</a></td>
+                <td>Misleading </td>
+                <td>Some contents </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Personal photos</td>
+                <td><a href="results/2c">Cake with a banner reading happy birthday</a></td>
+                <td>Some contents </td>
+                <td>Misleading </td>
+                <td>Missing </td>
+            </tr>
+        
+            <tr>
+                <td>Personal photos</td>
+                <td><a href="results/4o">Dog wearing a bow</a></td>
+                <td>Acceptable alternative </td>
+                <td>Acceptable alternative </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Personal photos</td>
+                <td><a href="results/4n">Pancakes</a></td>
+                <td>Some contents </td>
+                <td>Acceptable alternative </td>
+                <td>Acceptable alternative </td>
+            </tr>
+        
+            <tr>
+                <td>Personal photos</td>
+                <td><a href="results/4p">Snowscape</a></td>
+                <td>Acceptable alternative </td>
+                <td>Misleading </td>
+                <td>Acceptable alternative </td>
+            </tr>
+        
+            <tr>
+                <td>Public figure</td>
+                <td><a href="results/3a">Albert Einstein</a></td>
+                <td>Some contents </td>
+                <td>Misleading </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Public figure</td>
+                <td><a href="results/1e">Matt Hancock donating antibodies</a></td>
+                <td>Some contents </td>
+                <td>Misleading </td>
+                <td>Misleading </td>
+            </tr>
+        
+            <tr>
+                <td>Public figure</td>
+                <td><a href="results/1o">Official portrait of Donald J. Trump</a></td>
+                <td>Some contents </td>
+                <td>Misleading </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Public figure</td>
+                <td><a href="results/3b">Pelé</a></td>
+                <td>Some contents </td>
+                <td>Misleading </td>
+                <td>Some contents </td>
+            </tr>
+        
+            <tr>
+                <td>Public figure</td>
+                <td><a href="results/1b">Princess Diana</a></td>
+                <td>Some contents </td>
+                <td>Acceptable alternative </td>
+                <td>Some contents </td>
+            </tr>
+        
+    </tbody>
+</table>
+<h2>On Licensing</h2>
+<p>
+    Images are included here for reference, but most have been real images found from 
+    the web and licensing varies. Where available, copyright and licensing information 
+    is included on the image page. Images are used on a fair use basis for non-commercial 
+    research purposes.
+</p>
+<p>This website is generated from the experimental data using <a href="https://11ty.dev/">11ty</a> and hosted on GitHub pages.
+  </main>
+</body>
+
+</html>

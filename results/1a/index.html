@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="utf-8">
+  
+    <title>Automatic Alt Test Benchmarking - Add to cart button</title>
+  
+  <link rel="stylesheet" href="https://mallonbacka.github.io/basic-styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    img{
+      border: 0.3rem solid #999;
+    }
+
+    pre{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      width: 90vw;
+      border: 0.3rem solid #999;
+      padding: 2rem; 
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    
+<a href="/auto-alt-text-results/">Back to list</a>
+<h1>Add to cart button</h1>
+<h2>Image</h2>
+
+<picture><source type="image/png" srcset="/auto-alt-text-results/img/6649e6ab-576.png 576w"><img alt="Add to cart button" loading="lazy" decoding="async" src="/auto-alt-text-results/img/6649e6ab-576.jpeg" width="576" height="245"></picture>
+
+<h2>Background Information</h2>
+<ul>
+	<li><strong>Image contains:</strong> Add to cart button</li>
+	<li><strong>Reason chosen:</strong> This would be expected to behave like a button, but is an image of text</li>
+	<li><strong>License:</strong> Self-made (Matthew Hallonbacka) <a href="">Source page</a></li>
+</ul>
+<h2>Test Results</h2>
+<h3>Facebook Auto Alt Text</h3>
+<blockquote>May be an image of text that says &#39;Add to shopping cart&#39;</blockquote>
+<p><strong>Classification:</strong> Some contents</p>
+
+<h3>Twitter a11y</h3>
+<blockquote>From automatic captioning: null</blockquote>
+<p><strong>Classification:</strong> Missing</p>
+
+<h3>accessiBe</h3>
+<blockquote>Add to shopping cart</blockquote>
+<p><strong>Classification:</strong> Some contents</p>
+
+<h2>Benchmarking (Google Cloud Vision API)</h2>
+
+<h3>Labels</h3>
+<pre style="display: block; overflow-x: auto; overflow-y: hidden;">
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;labelAnnotations&quot;: [
+				{
+					&quot;description&quot;: &quot;Rectangle&quot;,
+					&quot;mid&quot;: &quot;/m/0j62f&quot;,
+					&quot;score&quot;: 0.8704399,
+					&quot;topicality&quot;: 0.8704399
+				},
+				{
+					&quot;description&quot;: &quot;Font&quot;,
+					&quot;mid&quot;: &quot;/m/03gq5hm&quot;,
+					&quot;score&quot;: 0.7249085,
+					&quot;topicality&quot;: 0.7249085
+				},
+				{
+					&quot;description&quot;: &quot;Magenta&quot;,
+					&quot;mid&quot;: &quot;/m/0ckc5&quot;,
+					&quot;score&quot;: 0.72129285,
+					&quot;topicality&quot;: 0.72129285
+				},
+				{
+					&quot;description&quot;: &quot;Brand&quot;,
+					&quot;mid&quot;: &quot;/m/01cd9&quot;,
+					&quot;score&quot;: 0.67941785,
+					&quot;topicality&quot;: 0.67941785
+				},
+				{
+					&quot;description&quot;: &quot;Graphics&quot;,
+					&quot;mid&quot;: &quot;/m/021sdg&quot;,
+					&quot;score&quot;: 0.6323066,
+					&quot;topicality&quot;: 0.6323066
+				},
+				{
+					&quot;description&quot;: &quot;Logo&quot;,
+					&quot;mid&quot;: &quot;/m/0dwx7&quot;,
+					&quot;score&quot;: 0.5607407,
+					&quot;topicality&quot;: 0.5607407
+				},
+				{
+					&quot;description&quot;: &quot;Electric blue&quot;,
+					&quot;mid&quot;: &quot;/m/02vwbzz&quot;,
+					&quot;score&quot;: 0.5584517,
+					&quot;topicality&quot;: 0.5584517
+				},
+				{
+					&quot;description&quot;: &quot;Peach&quot;,
+					&quot;mid&quot;: &quot;/m/03r18y&quot;,
+					&quot;score&quot;: 0.53865635,
+					&quot;topicality&quot;: 0.53865635
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Landmarks</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Logos</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;logoAnnotations&quot;: [
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;vertices&quot;: [
+							{
+								&quot;x&quot;: 67,
+								&quot;y&quot;: 64
+							},
+							{
+								&quot;x&quot;: 494,
+								&quot;y&quot;: 64
+							},
+							{
+								&quot;x&quot;: 494,
+								&quot;y&quot;: 165
+							},
+							{
+								&quot;x&quot;: 67,
+								&quot;y&quot;: 165
+							}
+						]
+					},
+					&quot;description&quot;: &quot;Alphabet Inc.&quot;,
+					&quot;mid&quot;: &quot;/g/11bwcf511s&quot;,
+					&quot;score&quot;: 0.5667088
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Objects</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;localizedObjectAnnotations&quot;: [
+				{
+					&quot;boundingPoly&quot;: {
+						&quot;normalizedVertices&quot;: [
+							{
+								&quot;x&quot;: 0.09389266,
+								&quot;y&quot;: 0.2508708
+							},
+							{
+								&quot;x&quot;: 0.85640895,
+								&quot;y&quot;: 0.2508708
+							},
+							{
+								&quot;x&quot;: 0.85640895,
+								&quot;y&quot;: 0.6778217
+							},
+							{
+								&quot;x&quot;: 0.09389266,
+								&quot;y&quot;: 0.6778217
+							}
+						]
+					},
+					&quot;mid&quot;: &quot;/m/02h19r&quot;,
+					&quot;name&quot;: &quot;Scarf&quot;,
+					&quot;score&quot;: 0.7544329
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Web</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;webDetection&quot;: {
+				&quot;bestGuessLabels&quot;: [
+					{
+						&quot;label&quot;: &quot;Cursor&quot;
+					}
+				],
+				&quot;fullMatchingImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://www.sgtltdmu.com/wp-content/uploads/2019/12/Danemeat.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=169991469711689&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://printer.se/wp-content/uploads/2017/09/vinyl-banderoll.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://printer.se/wp-content/uploads/2017/09/vinyl-banderoll-1000x1000.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://thumbs.dreamstime.com/b/get-started-now-web-interface-button-clicked-mouse-cursor-red-color-stock-footage-113818445.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://ih1.redbubble.net/image.1079129126.0469/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.todowebsalta.com.ar/multimedios/02.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;http://quicentro.xyz/portal-shopping/wp-content/uploads/2021/02/Gloria-Saltos.png&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://digitalcx.digitalbankeronline.com/wp-content/uploads/2019/10/oracle-240.png&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.radarcupon.com.mx/assets/persist/cache/160x160_logo/persist/images/logos/soriana.com.jpg&quot;
+					}
+				],
+				&quot;visuallySimilarImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://cdn.xxl.thumbs.canstockphoto.com/mouse-cursor-slides-over-and-clicks-subscribe-on-web-page-device-screen-view-of-cursor-clicking-footage_csp91158704.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://image.shutterstock.com/image-vector/subscribe-button-color-arrow-cursor-600w-1344411548.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://thumbs.dreamstime.com/b/subscribe-icon-cursor-bell-button-hand-cursor-red-button-subscribe-to-channel-blog-social-media-background-marketing-212589391.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://image.shutterstock.com/image-vector/subscribe-red-button-click-cursor-600w-1403986331.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://thumbs.dreamstime.com/b/hand-mouse-cursor-clicking-subscribe-button-youtube-to-track-content-your-video-169749222.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://cdn.w600.comps.canstockphoto.com/apply-with-cursor-button-internet-icon-eps-vector_csp79925548.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://media.gettyimages.com/vectors/register-button-and-cursor-vector-stock-illustration-vector-id1324763614?s=612x612&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://thumbs.dreamstime.com/b/apply-now-job-submit-button-icon-vector-apply-now-click-cursor-apply-now-job-submit-button-icon-vector-apply-now-click-cursor-216498415.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://thumbs.dreamstime.com/b/red-subscribe-button-arrow-cursor-icon-vector-channel-197102734.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://images.freeart.com/comp/art-print/fa6904281/arrow-cursor-to-hit-abort-button.jpg?units=in&amp;pw=10.0&amp;ph=8.0&amp;fit=True&quot;
+					}
+				],
+				&quot;webEntities&quot;: [
+					{
+						&quot;description&quot;: &quot;Soriana&quot;,
+						&quot;entityId&quot;: &quot;/m/06zmg9&quot;,
+						&quot;score&quot;: 0.7095
+					},
+					{
+						&quot;description&quot;: &quot;Coupon&quot;,
+						&quot;entityId&quot;: &quot;/m/02jfdl&quot;,
+						&quot;score&quot;: 0.7037
+					},
+					{
+						&quot;description&quot;: &quot;Discounts and allowances&quot;,
+						&quot;entityId&quot;: &quot;/m/01l_z9&quot;,
+						&quot;score&quot;: 0.481
+					},
+					{
+						&quot;entityId&quot;: &quot;/t/2hllcvy17g_px&quot;,
+						&quot;score&quot;: 0.4314
+					},
+					{
+						&quot;description&quot;: &quot;Product&quot;,
+						&quot;entityId&quot;: &quot;/m/01jwgf&quot;,
+						&quot;score&quot;: 0.3216056
+					},
+					{
+						&quot;description&quot;: &quot;Brand&quot;,
+						&quot;entityId&quot;: &quot;/m/01cd9&quot;,
+						&quot;score&quot;: 0.31524798
+					},
+					{
+						&quot;description&quot;: &quot;Walmart&quot;,
+						&quot;entityId&quot;: &quot;/m/0841v&quot;,
+						&quot;score&quot;: 0.3058
+					},
+					{
+						&quot;description&quot;: &quot;Supermarket&quot;,
+						&quot;entityId&quot;: &quot;/m/0dnkv&quot;,
+						&quot;score&quot;: 0.289
+					},
+					{
+						&quot;description&quot;: &quot;Graphics&quot;,
+						&quot;entityId&quot;: &quot;/m/021sdg&quot;,
+						&quot;score&quot;: 0.28136957
+					},
+					{
+						&quot;description&quot;: &quot;Logo&quot;,
+						&quot;entityId&quot;: &quot;/m/0dwx7&quot;,
+						&quot;score&quot;: 0.27716523
+					}
+				]
+			}
+		}
+	]
+}
+</pre>
+  </main>
+</body>
+
+</html>

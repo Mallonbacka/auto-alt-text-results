@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="utf-8">
+  
+    <title>Automatic Alt Test Benchmarking - Snowscape</title>
+  
+  <link rel="stylesheet" href="https://mallonbacka.github.io/basic-styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    img{
+      border: 0.3rem solid #999;
+    }
+
+    pre{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      width: 90vw;
+      border: 0.3rem solid #999;
+      padding: 2rem; 
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    
+<a href="/auto-alt-text-results/">Back to list</a>
+<h1>Snowscape</h1>
+<h2>Image</h2>
+
+<picture><source type="image/png" srcset="/auto-alt-text-results/img/562329db-600.png 600w"><img alt="Snowscape" loading="lazy" decoding="async" src="/auto-alt-text-results/img/562329db-600.jpeg" width="600" height="450"></picture>
+
+<h2>Background Information</h2>
+<ul>
+	<li><strong>Image contains:</strong> Snowscape</li>
+	<li><strong>Reason chosen:</strong> Pictures of nature are commonly shared on social media</li>
+	<li><strong>License:</strong> Self-made (Matthew Hallonbacka) <a href="">Source page</a></li>
+</ul>
+<h2>Test Results</h2>
+<h3>Facebook Auto Alt Text</h3>
+<blockquote>May be an image of nature, sky and tree</blockquote>
+<p><strong>Classification:</strong> Acceptable alternative</p>
+
+<h3>Twitter a11y</h3>
+<blockquote>From automatic captioning: A man cross country skiing in the snow</blockquote>
+<p><strong>Classification:</strong> Misleading</p>
+
+<h3>accessiBe</h3>
+<blockquote>Green trees on snow covered ground under blue sky during daytime</blockquote>
+<p><strong>Classification:</strong> Acceptable alternative</p>
+
+<h2>Benchmarking (Google Cloud Vision API)</h2>
+
+<h3>Labels</h3>
+<pre style="display: block; overflow-x: auto; overflow-y: hidden;">
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;labelAnnotations&quot;: [
+				{
+					&quot;description&quot;: &quot;Sky&quot;,
+					&quot;mid&quot;: &quot;/m/01bqvp&quot;,
+					&quot;score&quot;: 0.96759015,
+					&quot;topicality&quot;: 0.96759015
+				},
+				{
+					&quot;description&quot;: &quot;Plant&quot;,
+					&quot;mid&quot;: &quot;/m/05s2s&quot;,
+					&quot;score&quot;: 0.932794,
+					&quot;topicality&quot;: 0.932794
+				},
+				{
+					&quot;description&quot;: &quot;Natural landscape&quot;,
+					&quot;mid&quot;: &quot;/m/03d28y3&quot;,
+					&quot;score&quot;: 0.8777935,
+					&quot;topicality&quot;: 0.8777935
+				},
+				{
+					&quot;description&quot;: &quot;Larch&quot;,
+					&quot;mid&quot;: &quot;/m/0pcm_&quot;,
+					&quot;score&quot;: 0.86810863,
+					&quot;topicality&quot;: 0.86810863
+				},
+				{
+					&quot;description&quot;: &quot;Tree&quot;,
+					&quot;mid&quot;: &quot;/m/07j7r&quot;,
+					&quot;score&quot;: 0.8251927,
+					&quot;topicality&quot;: 0.8251927
+				},
+				{
+					&quot;description&quot;: &quot;Snow&quot;,
+					&quot;mid&quot;: &quot;/m/06_dn&quot;,
+					&quot;score&quot;: 0.8166941,
+					&quot;topicality&quot;: 0.8166941
+				},
+				{
+					&quot;description&quot;: &quot;Landscape&quot;,
+					&quot;mid&quot;: &quot;/m/025s3q0&quot;,
+					&quot;score&quot;: 0.7737725,
+					&quot;topicality&quot;: 0.7737725
+				},
+				{
+					&quot;description&quot;: &quot;Freezing&quot;,
+					&quot;mid&quot;: &quot;/m/01c791&quot;,
+					&quot;score&quot;: 0.7557537,
+					&quot;topicality&quot;: 0.7557537
+				},
+				{
+					&quot;description&quot;: &quot;Forest&quot;,
+					&quot;mid&quot;: &quot;/m/02zr8&quot;,
+					&quot;score&quot;: 0.7482963,
+					&quot;topicality&quot;: 0.7482963
+				},
+				{
+					&quot;description&quot;: &quot;Lacustrine plain&quot;,
+					&quot;mid&quot;: &quot;/m/0fpjpt&quot;,
+					&quot;score&quot;: 0.74311906,
+					&quot;topicality&quot;: 0.74311906
+				}
+			]
+		}
+	]
+}
+</pre>
+<h3>Landmarks</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Logos</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Objects</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{}
+	]
+}
+</pre>
+<h3>Web</h3>
+<pre>
+	{
+	&quot;responses&quot;: [
+		{
+			&quot;webDetection&quot;: {
+				&quot;bestGuessLabels&quot;: [
+					{
+						&quot;label&quot;: &quot;snow&quot;
+					}
+				],
+				&quot;visuallySimilarImages&quot;: [
+					{
+						&quot;url&quot;: &quot;https://render.fineartamerica.com/images/rendered/square-dynamic/small/images/artworkimages/mediumlarge/2/smooth-winter-cool-ee-photography.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://s3.onthesnow.com/dynimages/photogallery/large/140565.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=497498097566818&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://thumbs.dreamstime.com/b/winter-path-village-winter-path-village-223018897.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2733030793579319&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://www.valgardena-groeden.com/images/cms/gallery/800x600/D-4723-winterwald-dahinter-rosszaehne-seiser-alm.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://i1.wp.com/www.trailsunblazed.com/wp-content/uploads/2018/01/IMG_0334-e1516494982928.jpg?w=508&amp;h=762&amp;ssl=1&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://images.squarespace-cdn.com/content/v1/5b5a35175ffd20fc6ce125cd/1605568395495-SL14Z320CTED8A789Y6M/Snowshoeing+on+the+property.jpg?format=500w&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://cdn.pixabay.com/photo/2020/02/26/14/44/snow-4881903_960_720.jpg&quot;
+					},
+					{
+						&quot;url&quot;: &quot;https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=3625735267480758&quot;
+					}
+				],
+				&quot;webEntities&quot;: [
+					{
+						&quot;description&quot;: &quot;Conifers&quot;,
+						&quot;entityId&quot;: &quot;/m/0hv3g&quot;,
+						&quot;score&quot;: 0.43830606
+					},
+					{
+						&quot;description&quot;: &quot;Temperate coniferous forest&quot;,
+						&quot;entityId&quot;: &quot;/g/122tb_3n&quot;,
+						&quot;score&quot;: 0.2385
+					},
+					{
+						&quot;description&quot;: &quot;Southern Appalachian spruce–fir forest&quot;,
+						&quot;entityId&quot;: &quot;/m/064mqb0&quot;,
+						&quot;score&quot;: 0.22875
+					},
+					{
+						&quot;description&quot;: &quot;Tundra&quot;,
+						&quot;entityId&quot;: &quot;/m/07k3c&quot;,
+						&quot;score&quot;: 0.18867277
+					},
+					{
+						&quot;description&quot;: &quot;Winter&quot;,
+						&quot;entityId&quot;: &quot;/m/086mh&quot;,
+						&quot;score&quot;: 0.18537845
+					},
+					{
+						&quot;description&quot;: &quot;Pine&quot;,
+						&quot;entityId&quot;: &quot;/m/09t57&quot;,
+						&quot;score&quot;: 0.17424001
+					},
+					{
+						&quot;description&quot;: &quot;Fir&quot;,
+						&quot;entityId&quot;: &quot;/m/016x4z&quot;,
+						&quot;score&quot;: 0.17401999
+					},
+					{
+						&quot;description&quot;: &quot;State park&quot;,
+						&quot;entityId&quot;: &quot;/m/021krv&quot;,
+						&quot;score&quot;: 0.17399856
+					},
+					{
+						&quot;description&quot;: &quot;Snow&quot;,
+						&quot;entityId&quot;: &quot;/m/06_dn&quot;,
+						&quot;score&quot;: 0.15998124
+					},
+					{
+						&quot;description&quot;: &quot;Coniferous forest&quot;,
+						&quot;entityId&quot;: &quot;/g/121tbvhp&quot;,
+						&quot;score&quot;: 0.1488
+					}
+				]
+			}
+		}
+	]
+}
+</pre>
+  </main>
+</body>
+
+</html>
